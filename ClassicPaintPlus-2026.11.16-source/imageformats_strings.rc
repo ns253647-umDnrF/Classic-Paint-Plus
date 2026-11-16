@@ -1,0 +1,1170 @@
+// Image format strings, UTF-8.
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG options"
+    IDS_FORMAT_BASE+1 "Interlaced (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimize file size"
+    IDS_FORMAT_BASE+3 "Reduces file size by merging similar colors. The working canvas stays full color."
+    IDS_FORMAT_BASE+4 "WebP options"
+    IDS_FORMAT_BASE+5 "Lossless compression"
+    IDS_FORMAT_BASE+6 "Icon options"
+    IDS_FORMAT_BASE+7 "Image size"
+    IDS_FORMAT_BASE+8 "Keep other images in this icon"
+    IDS_FORMAT_BASE+9 "Current size"
+    IDS_FORMAT_BASE+10 "ICO supports up to 256 × 256 pixels. Resizing keeps proportions and adds transparent padding."
+    IDS_FORMAT_BASE+11 "Choose icon image"
+    IDS_FORMAT_BASE+12 "Image to edit"
+    IDS_FORMAT_BASE+13 "The first animation frame is open. Editing and saving produce a still image; use Save As to keep the animation."
+    IDS_FORMAT_BASE+14 "24-bit bitmap"
+    IDS_FORMAT_BASE+15 "Monochrome bitmap"
+    IDS_FORMAT_BASE+16 "16-color bitmap"
+    IDS_FORMAT_BASE+17 "256-color bitmap"
+    IDS_FORMAT_BASE+18 "Icon"
+END
+
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Параметры PNG"
+    IDS_FORMAT_BASE+1 "Чересстрочная запись (Adam7)"
+    IDS_FORMAT_BASE+2 "Оптимизация размера"
+    IDS_FORMAT_BASE+3 "Уменьшает файл за счёт близких цветов. Холст остаётся полноцветным."
+    IDS_FORMAT_BASE+4 "Параметры WebP"
+    IDS_FORMAT_BASE+5 "Сжатие без потерь"
+    IDS_FORMAT_BASE+6 "Параметры значка"
+    IDS_FORMAT_BASE+7 "Размер изображения"
+    IDS_FORMAT_BASE+8 "Сохранить остальные изображения в значке"
+    IDS_FORMAT_BASE+9 "Текущий размер"
+    IDS_FORMAT_BASE+10 "ICO: до 256 × 256 пикселей. При смене размера пропорции сохраняются, поля остаются прозрачными."
+    IDS_FORMAT_BASE+11 "Выбор изображения значка"
+    IDS_FORMAT_BASE+12 "Изображение для редактирования"
+    IDS_FORMAT_BASE+13 "Открыт первый кадр анимации. Редактирование и сохранение создают статичное изображение. Используйте «Сохранить как», чтобы сохранить исходную анимацию."
+    IDS_FORMAT_BASE+14 "24-разрядный рисунок"
+    IDS_FORMAT_BASE+15 "Монохромный рисунок"
+    IDS_FORMAT_BASE+16 "16-цветный рисунок"
+    IDS_FORMAT_BASE+17 "256-цветный рисунок"
+    IDS_FORMAT_BASE+18 "Значок"
+END
+
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG-Optionen"
+    IDS_FORMAT_BASE+1 "Zeilensprungverfahren (Adam7)"
+    IDS_FORMAT_BASE+2 "Dateigröße optimieren"
+    IDS_FORMAT_BASE+3 "Fasst ähnliche Farben für kleinere Dateien zusammen. Die Arbeitsfläche behält alle Farben."
+    IDS_FORMAT_BASE+4 "WebP-Optionen"
+    IDS_FORMAT_BASE+5 "Verlustfreie Komprimierung"
+    IDS_FORMAT_BASE+6 "Symboloptionen"
+    IDS_FORMAT_BASE+7 "Bildgröße"
+    IDS_FORMAT_BASE+8 "Andere Bilder im Symbol beibehalten"
+    IDS_FORMAT_BASE+9 "Aktuelle Größe"
+    IDS_FORMAT_BASE+10 "ICO unterstützt bis zu 256 × 256 Pixel. Proportionen bleiben erhalten, Ränder werden transparent."
+    IDS_FORMAT_BASE+11 "Symbolbild auswählen"
+    IDS_FORMAT_BASE+12 "Zu bearbeitendes Bild"
+    IDS_FORMAT_BASE+13 "Das erste Animationsbild ist geöffnet. Bearbeiten und Speichern erzeugen ein Standbild. Speichern Sie unter einem neuen Namen, um die Animation zu erhalten."
+    IDS_FORMAT_BASE+14 "24-Bit-Bitmap"
+    IDS_FORMAT_BASE+15 "Monochrome Bitmap"
+    IDS_FORMAT_BASE+16 "16-Farben-Bitmap"
+    IDS_FORMAT_BASE+17 "256-Farben-Bitmap"
+    IDS_FORMAT_BASE+18 "Symbol"
+END
+
+LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Opciones de PNG"
+    IDS_FORMAT_BASE+1 "Entrelazado (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimizar tamaño"
+    IDS_FORMAT_BASE+3 "Combina colores similares para reducir el archivo. El lienzo conserva todos los colores."
+    IDS_FORMAT_BASE+4 "Opciones de WebP"
+    IDS_FORMAT_BASE+5 "Compresión sin pérdida"
+    IDS_FORMAT_BASE+6 "Opciones de icono"
+    IDS_FORMAT_BASE+7 "Tamaño de imagen"
+    IDS_FORMAT_BASE+8 "Conservar otras imágenes del icono"
+    IDS_FORMAT_BASE+9 "Tamaño actual"
+    IDS_FORMAT_BASE+10 "ICO admite hasta 256 × 256 píxeles. Se mantienen las proporciones con márgenes transparentes."
+    IDS_FORMAT_BASE+11 "Elegir imagen del icono"
+    IDS_FORMAT_BASE+12 "Imagen para editar"
+    IDS_FORMAT_BASE+13 "Se ha abierto el primer fotograma. La edición y el guardado crean una imagen fija. Use Guardar como para conservar la animación."
+    IDS_FORMAT_BASE+14 "Mapa de bits de 24 bits"
+    IDS_FORMAT_BASE+15 "Mapa de bits monocromo"
+    IDS_FORMAT_BASE+16 "Mapa de bits de 16 colores"
+    IDS_FORMAT_BASE+17 "Mapa de bits de 256 colores"
+    IDS_FORMAT_BASE+18 "Icono"
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Opções de PNG"
+    IDS_FORMAT_BASE+1 "Entrelaçado (Adam7)"
+    IDS_FORMAT_BASE+2 "Otimizar tamanho"
+    IDS_FORMAT_BASE+3 "Combina cores semelhantes para reduzir o ficheiro. A tela de trabalho mantém todas as cores."
+    IDS_FORMAT_BASE+4 "Opções de WebP"
+    IDS_FORMAT_BASE+5 "Compressão sem perdas"
+    IDS_FORMAT_BASE+6 "Opções do ícone"
+    IDS_FORMAT_BASE+7 "Tamanho da imagem"
+    IDS_FORMAT_BASE+8 "Preservar outras imagens do ícone"
+    IDS_FORMAT_BASE+9 "Tamanho atual"
+    IDS_FORMAT_BASE+10 "ICO suporta até 256 × 256 píxeis. As proporções são mantidas com margens transparentes."
+    IDS_FORMAT_BASE+11 "Escolher imagem do ícone"
+    IDS_FORMAT_BASE+12 "Imagem a editar"
+    IDS_FORMAT_BASE+13 "Foi aberto o primeiro fotograma. A edição e a gravação criam uma imagem estática. Use Guardar como para preservar a animação."
+    IDS_FORMAT_BASE+14 "Mapa de bits de 24 bits"
+    IDS_FORMAT_BASE+15 "Mapa de bits monocromático"
+    IDS_FORMAT_BASE+16 "Mapa de bits de 16 cores"
+    IDS_FORMAT_BASE+17 "Mapa de bits de 256 cores"
+    IDS_FORMAT_BASE+18 "Ícone"
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Opções de PNG"
+    IDS_FORMAT_BASE+1 "Entrelaçado (Adam7)"
+    IDS_FORMAT_BASE+2 "Otimizar tamanho"
+    IDS_FORMAT_BASE+3 "Combina cores semelhantes para reduzir o arquivo. A tela de trabalho mantém todas as cores."
+    IDS_FORMAT_BASE+4 "Opções de WebP"
+    IDS_FORMAT_BASE+5 "Compressão sem perdas"
+    IDS_FORMAT_BASE+6 "Opções do ícone"
+    IDS_FORMAT_BASE+7 "Tamanho da imagem"
+    IDS_FORMAT_BASE+8 "Preservar outras imagens do ícone"
+    IDS_FORMAT_BASE+9 "Tamanho atual"
+    IDS_FORMAT_BASE+10 "ICO suporta até 256 × 256 pixels. As proporções são mantidas com margens transparentes."
+    IDS_FORMAT_BASE+11 "Escolher imagem do ícone"
+    IDS_FORMAT_BASE+12 "Imagem a editar"
+    IDS_FORMAT_BASE+13 "O primeiro quadro foi aberto. A edição e o salvamento criam uma imagem estática. Use Salvar como para preservar a animação."
+    IDS_FORMAT_BASE+14 "Bitmap de 24 bits"
+    IDS_FORMAT_BASE+15 "Bitmap monocromático"
+    IDS_FORMAT_BASE+16 "Bitmap de 16 cores"
+    IDS_FORMAT_BASE+17 "Bitmap de 256 cores"
+    IDS_FORMAT_BASE+18 "Ícone"
+END
+
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Настройки на PNG"
+    IDS_FORMAT_BASE+1 "Презредово (Adam7)"
+    IDS_FORMAT_BASE+2 "Оптимизиране на размера"
+    IDS_FORMAT_BASE+3 "Обединява близки цветове за по-малък файл. Работното платно запазва всички цветове."
+    IDS_FORMAT_BASE+4 "Настройки на WebP"
+    IDS_FORMAT_BASE+5 "Компресия без загуби"
+    IDS_FORMAT_BASE+6 "Настройки на иконата"
+    IDS_FORMAT_BASE+7 "Размер на изображението"
+    IDS_FORMAT_BASE+8 "Запазване на другите изображения в иконата"
+    IDS_FORMAT_BASE+9 "Текущ размер"
+    IDS_FORMAT_BASE+10 "ICO поддържа до 256 × 256 пиксела. Пропорциите се запазват с прозрачни полета."
+    IDS_FORMAT_BASE+11 "Избор на изображение в иконата"
+    IDS_FORMAT_BASE+12 "Изображение за редактиране"
+    IDS_FORMAT_BASE+13 "Отворен е първият кадър. Редактирането и записването създават статично изображение. Използвайте Запиши като, за да запазите анимацията."
+    IDS_FORMAT_BASE+14 "24-битово изображение"
+    IDS_FORMAT_BASE+15 "Монохромно изображение"
+    IDS_FORMAT_BASE+16 "Изображение с 16 цвята"
+    IDS_FORMAT_BASE+17 "Изображение с 256 цвята"
+    IDS_FORMAT_BASE+18 "Икона"
+END
+
+LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Možnosti PNG"
+    IDS_FORMAT_BASE+1 "Prokládané (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimalizovat velikost"
+    IDS_FORMAT_BASE+3 "Spojí podobné barvy pro menší soubor. Pracovní plátno zachová všechny barvy."
+    IDS_FORMAT_BASE+4 "Možnosti WebP"
+    IDS_FORMAT_BASE+5 "Bezeztrátová komprese"
+    IDS_FORMAT_BASE+6 "Možnosti ikony"
+    IDS_FORMAT_BASE+7 "Velikost obrázku"
+    IDS_FORMAT_BASE+8 "Zachovat ostatní obrázky v ikoně"
+    IDS_FORMAT_BASE+9 "Aktuální velikost"
+    IDS_FORMAT_BASE+10 "ICO podporuje až 256 × 256 pixelů. Poměr stran zůstává zachován s průhlednými okraji."
+    IDS_FORMAT_BASE+11 "Vybrat obrázek ikony"
+    IDS_FORMAT_BASE+12 "Obrázek k úpravě"
+    IDS_FORMAT_BASE+13 "Je otevřen první snímek animace. Úpravy a uložení vytvoří statický obrázek. Pro zachování animace použijte Uložit jako."
+    IDS_FORMAT_BASE+14 "24bitová rastrová mapa"
+    IDS_FORMAT_BASE+15 "Monochromatická rastrová mapa"
+    IDS_FORMAT_BASE+16 "Rastrová mapa s 16 barvami"
+    IDS_FORMAT_BASE+17 "Rastrová mapa s 256 barvami"
+    IDS_FORMAT_BASE+18 "Ikona"
+END
+
+LANGUAGE LANG_ESTONIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG valikud"
+    IDS_FORMAT_BASE+1 "Ülerealaotus (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimeeri suurust"
+    IDS_FORMAT_BASE+3 "Ühendab sarnased värvid väiksemaks failiks. Töölõuend säilitab kõik värvid."
+    IDS_FORMAT_BASE+4 "WebP valikud"
+    IDS_FORMAT_BASE+5 "Kadudeta pakkimine"
+    IDS_FORMAT_BASE+6 "Ikooni valikud"
+    IDS_FORMAT_BASE+7 "Pildi suurus"
+    IDS_FORMAT_BASE+8 "Säilita ikooni teised pildid"
+    IDS_FORMAT_BASE+9 "Praegune suurus"
+    IDS_FORMAT_BASE+10 "ICO toetab kuni 256 × 256 pikslit. Proportsioonid säilivad ja lisanduvad läbipaistvad servad."
+    IDS_FORMAT_BASE+11 "Vali ikooni pilt"
+    IDS_FORMAT_BASE+12 "Muudetav pilt"
+    IDS_FORMAT_BASE+13 "Avatud on animatsiooni esimene kaader. Muutmine ja salvestamine loovad staatilise pildi. Animatsiooni säilitamiseks kasuta Salvesta nimega."
+    IDS_FORMAT_BASE+14 "24-bitine rasterpilt"
+    IDS_FORMAT_BASE+15 "Mustvalge rasterpilt"
+    IDS_FORMAT_BASE+16 "16 värviga rasterpilt"
+    IDS_FORMAT_BASE+17 "256 värviga rasterpilt"
+    IDS_FORMAT_BASE+18 "Ikoon"
+END
+
+LANGUAGE LANG_BASQUE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG aukerak"
+    IDS_FORMAT_BASE+1 "Gurutzelarkatua (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimizatu tamaina"
+    IDS_FORMAT_BASE+3 "Antzeko koloreak elkartzen ditu fitxategia txikitzeko. Laneko oihalak kolore guztiak mantentzen ditu."
+    IDS_FORMAT_BASE+4 "WebP aukerak"
+    IDS_FORMAT_BASE+5 "Galerarik gabeko konpresioa"
+    IDS_FORMAT_BASE+6 "Ikonoaren aukerak"
+    IDS_FORMAT_BASE+7 "Irudiaren tamaina"
+    IDS_FORMAT_BASE+8 "Mantendu ikonoko beste irudiak"
+    IDS_FORMAT_BASE+9 "Uneko tamaina"
+    IDS_FORMAT_BASE+10 "ICOk gehienez 256 × 256 pixel onartzen ditu. Proportzioak mantentzen dira, ertz gardenekin."
+    IDS_FORMAT_BASE+11 "Aukeratu ikonoaren irudia"
+    IDS_FORMAT_BASE+12 "Editatzeko irudia"
+    IDS_FORMAT_BASE+13 "Animazioaren lehen fotograma ireki da. Editatzeak eta gordetzeak irudi estatikoa sortzen dute. Erabili Gorde honela animazioa mantentzeko."
+    IDS_FORMAT_BASE+14 "24 biteko bit-mapa"
+    IDS_FORMAT_BASE+15 "Bit-mapa monokromoa"
+    IDS_FORMAT_BASE+16 "16 koloreko bit-mapa"
+    IDS_FORMAT_BASE+17 "256 koloreko bit-mapa"
+    IDS_FORMAT_BASE+18 "Ikonoa"
+END
+
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Options PNG"
+    IDS_FORMAT_BASE+1 "Entrelacé (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimiser la taille"
+    IDS_FORMAT_BASE+3 "Regroupe les couleurs proches pour réduire le fichier. La zone de travail conserve toutes les couleurs."
+    IDS_FORMAT_BASE+4 "Options WebP"
+    IDS_FORMAT_BASE+5 "Compression sans perte"
+    IDS_FORMAT_BASE+6 "Options d’icône"
+    IDS_FORMAT_BASE+7 "Taille de l’image"
+    IDS_FORMAT_BASE+8 "Conserver les autres images de l’icône"
+    IDS_FORMAT_BASE+9 "Taille actuelle"
+    IDS_FORMAT_BASE+10 "ICO accepte jusqu’à 256 × 256 pixels. Les proportions sont conservées avec des marges transparentes."
+    IDS_FORMAT_BASE+11 "Choisir l’image de l’icône"
+    IDS_FORMAT_BASE+12 "Image à modifier"
+    IDS_FORMAT_BASE+13 "La première image de l’animation est ouverte. La modification et l’enregistrement créent une image fixe. Utilisez Enregistrer sous pour conserver l’animation."
+    IDS_FORMAT_BASE+14 "Bitmap 24 bits"
+    IDS_FORMAT_BASE+15 "Bitmap monochrome"
+    IDS_FORMAT_BASE+16 "Bitmap 16 couleurs"
+    IDS_FORMAT_BASE+17 "Bitmap 256 couleurs"
+    IDS_FORMAT_BASE+18 "Icône"
+END
+
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "אפשרויות PNG"
+    IDS_FORMAT_BASE+1 "שזירה (Adam7)"
+    IDS_FORMAT_BASE+2 "מיטוב גודל"
+    IDS_FORMAT_BASE+3 "ממזג צבעים דומים להקטנת הקובץ. משטח העבודה נשאר בצבע מלא."
+    IDS_FORMAT_BASE+4 "אפשרויות WebP"
+    IDS_FORMAT_BASE+5 "דחיסה ללא אובדן"
+    IDS_FORMAT_BASE+6 "אפשרויות סמל"
+    IDS_FORMAT_BASE+7 "גודל תמונה"
+    IDS_FORMAT_BASE+8 "שמור תמונות אחרות בסמל"
+    IDS_FORMAT_BASE+9 "הגודל הנוכחי"
+    IDS_FORMAT_BASE+10 "ICO תומך בעד 256 × 256 פיקסלים. שינוי הגודל שומר על היחס ומוסיף שוליים שקופים."
+    IDS_FORMAT_BASE+11 "בחר תמונה מהסמל"
+    IDS_FORMAT_BASE+12 "תמונה לעריכה"
+    IDS_FORMAT_BASE+13 "הפריים הראשון של ההנפשה פתוח. עריכה ושמירה יוצרות תמונה נייחת. השתמש בשמירה בשם כדי לשמור את ההנפשה."
+    IDS_FORMAT_BASE+14 "מפת סיביות של 24 סיביות"
+    IDS_FORMAT_BASE+15 "מפת סיביות בשחור לבן"
+    IDS_FORMAT_BASE+16 "מפת סיביות של 16 צבעים"
+    IDS_FORMAT_BASE+17 "מפת סיביות של 256 צבעים"
+    IDS_FORMAT_BASE+18 "סמל"
+END
+
+LANGUAGE LANG_CROATIAN, SUBLANG_CROATIAN_CROATIA
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Mogućnosti PNG-a"
+    IDS_FORMAT_BASE+1 "Isprepleteno (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimiziraj veličinu"
+    IDS_FORMAT_BASE+3 "Spaja slične boje radi manje datoteke. Radno platno zadržava sve boje."
+    IDS_FORMAT_BASE+4 "Mogućnosti WebP-a"
+    IDS_FORMAT_BASE+5 "Sažimanje bez gubitaka"
+    IDS_FORMAT_BASE+6 "Mogućnosti ikone"
+    IDS_FORMAT_BASE+7 "Veličina slike"
+    IDS_FORMAT_BASE+8 "Sačuvaj ostale slike u ikoni"
+    IDS_FORMAT_BASE+9 "Trenutačna veličina"
+    IDS_FORMAT_BASE+10 "ICO podržava do 256 × 256 piksela. Omjer slike ostaje isti uz prozirne rubove."
+    IDS_FORMAT_BASE+11 "Odabir slike ikone"
+    IDS_FORMAT_BASE+12 "Slika za uređivanje"
+    IDS_FORMAT_BASE+13 "Otvoren je prvi kadar animacije. Uređivanje i spremanje stvaraju statičnu sliku. Koristite Spremi kao za očuvanje animacije."
+    IDS_FORMAT_BASE+14 "24-bitna bitmapa"
+    IDS_FORMAT_BASE+15 "Monokromatska bitmapa"
+    IDS_FORMAT_BASE+16 "Bitmapa sa 16 boja"
+    IDS_FORMAT_BASE+17 "Bitmapa s 256 boja"
+    IDS_FORMAT_BASE+18 "Ikona"
+END
+
+LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG-beállítások"
+    IDS_FORMAT_BASE+1 "Váltottsoros (Adam7)"
+    IDS_FORMAT_BASE+2 "Méretoptimalizálás"
+    IDS_FORMAT_BASE+3 "Hasonló színek összevonásával csökkenti a fájlt. A munkavászon teljes színű marad."
+    IDS_FORMAT_BASE+4 "WebP-beállítások"
+    IDS_FORMAT_BASE+5 "Veszteségmentes tömörítés"
+    IDS_FORMAT_BASE+6 "Ikonbeállítások"
+    IDS_FORMAT_BASE+7 "Képméret"
+    IDS_FORMAT_BASE+8 "Az ikon többi képének megőrzése"
+    IDS_FORMAT_BASE+9 "Jelenlegi méret"
+    IDS_FORMAT_BASE+10 "Az ICO legfeljebb 256 × 256 képpontot támogat. A méretezés megtartja az arányokat és átlátszó szegélyt ad."
+    IDS_FORMAT_BASE+11 "Ikonkép kiválasztása"
+    IDS_FORMAT_BASE+12 "Szerkesztendő kép"
+    IDS_FORMAT_BASE+13 "Az animáció első képkockája nyílt meg. A szerkesztés és mentés állóképet hoz létre. Az animáció megőrzéséhez használja a Mentés másként parancsot."
+    IDS_FORMAT_BASE+14 "24 bites bitkép"
+    IDS_FORMAT_BASE+15 "Monokróm bitkép"
+    IDS_FORMAT_BASE+16 "16 színű bitkép"
+    IDS_FORMAT_BASE+17 "256 színű bitkép"
+    IDS_FORMAT_BASE+18 "Ikon"
+END
+
+LANGUAGE LANG_INDONESIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Opsi PNG"
+    IDS_FORMAT_BASE+1 "Interlasi (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimalkan ukuran"
+    IDS_FORMAT_BASE+3 "Menggabungkan warna serupa untuk mengecilkan berkas. Kanvas kerja tetap berwarna penuh."
+    IDS_FORMAT_BASE+4 "Opsi WebP"
+    IDS_FORMAT_BASE+5 "Kompresi tanpa kehilangan"
+    IDS_FORMAT_BASE+6 "Opsi ikon"
+    IDS_FORMAT_BASE+7 "Ukuran gambar"
+    IDS_FORMAT_BASE+8 "Pertahankan gambar lain dalam ikon"
+    IDS_FORMAT_BASE+9 "Ukuran saat ini"
+    IDS_FORMAT_BASE+10 "ICO mendukung hingga 256 × 256 piksel. Ukuran diubah secara proporsional dengan tepi transparan."
+    IDS_FORMAT_BASE+11 "Pilih gambar ikon"
+    IDS_FORMAT_BASE+12 "Gambar untuk diedit"
+    IDS_FORMAT_BASE+13 "Bingkai animasi pertama dibuka. Pengeditan dan penyimpanan menghasilkan gambar diam. Gunakan Simpan sebagai untuk mempertahankan animasi."
+    IDS_FORMAT_BASE+14 "Bitmap 24-bit"
+    IDS_FORMAT_BASE+15 "Bitmap monokrom"
+    IDS_FORMAT_BASE+16 "Bitmap 16 warna"
+    IDS_FORMAT_BASE+17 "Bitmap 256 warna"
+    IDS_FORMAT_BASE+18 "Ikon"
+END
+
+LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Opzioni PNG"
+    IDS_FORMAT_BASE+1 "Interlacciato (Adam7)"
+    IDS_FORMAT_BASE+2 "Ottimizza dimensione"
+    IDS_FORMAT_BASE+3 "Unisce colori simili per ridurre il file. La tela di lavoro conserva tutti i colori."
+    IDS_FORMAT_BASE+4 "Opzioni WebP"
+    IDS_FORMAT_BASE+5 "Compressione senza perdita"
+    IDS_FORMAT_BASE+6 "Opzioni icona"
+    IDS_FORMAT_BASE+7 "Dimensione immagine"
+    IDS_FORMAT_BASE+8 "Mantieni le altre immagini nell’icona"
+    IDS_FORMAT_BASE+9 "Dimensione attuale"
+    IDS_FORMAT_BASE+10 "ICO supporta fino a 256 × 256 pixel. Le proporzioni restano invariate con margini trasparenti."
+    IDS_FORMAT_BASE+11 "Scegli immagine dell’icona"
+    IDS_FORMAT_BASE+12 "Immagine da modificare"
+    IDS_FORMAT_BASE+13 "È aperto il primo fotogramma. La modifica e il salvataggio creano un’immagine fissa. Usa Salva con nome per mantenere l’animazione."
+    IDS_FORMAT_BASE+14 "Bitmap a 24 bit"
+    IDS_FORMAT_BASE+15 "Bitmap monocromatica"
+    IDS_FORMAT_BASE+16 "Bitmap a 16 colori"
+    IDS_FORMAT_BASE+17 "Bitmap a 256 colori"
+    IDS_FORMAT_BASE+18 "Icona"
+END
+
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG オプション"
+    IDS_FORMAT_BASE+1 "インターレース (Adam7)"
+    IDS_FORMAT_BASE+2 "サイズを最適化"
+    IDS_FORMAT_BASE+3 "近い色をまとめてファイルを縮小します。編集用キャンバスはフルカラーのままです。"
+    IDS_FORMAT_BASE+4 "WebP オプション"
+    IDS_FORMAT_BASE+5 "可逆圧縮"
+    IDS_FORMAT_BASE+6 "アイコンのオプション"
+    IDS_FORMAT_BASE+7 "画像サイズ"
+    IDS_FORMAT_BASE+8 "アイコン内の他の画像を保持"
+    IDS_FORMAT_BASE+9 "現在のサイズ"
+    IDS_FORMAT_BASE+10 "ICO は最大 256 × 256 ピクセルです。サイズ変更時は縦横比を保ち、透明な余白を追加します。"
+    IDS_FORMAT_BASE+11 "アイコン画像を選択"
+    IDS_FORMAT_BASE+12 "編集する画像"
+    IDS_FORMAT_BASE+13 "アニメーションの最初のフレームを開きました。編集と保存では静止画を作成します。アニメーションを残すには名前を付けて保存してください。"
+    IDS_FORMAT_BASE+14 "24 ビット ビットマップ"
+    IDS_FORMAT_BASE+15 "モノクロ ビットマップ"
+    IDS_FORMAT_BASE+16 "16 色ビットマップ"
+    IDS_FORMAT_BASE+17 "256 色ビットマップ"
+    IDS_FORMAT_BASE+18 "アイコン"
+END
+
+LANGUAGE LANG_DUTCH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG-opties"
+    IDS_FORMAT_BASE+1 "Geïnterlinieerd (Adam7)"
+    IDS_FORMAT_BASE+2 "Grootte optimaliseren"
+    IDS_FORMAT_BASE+3 "Voegt vergelijkbare kleuren samen voor kleinere bestanden. Het werkcanvas behoudt alle kleuren."
+    IDS_FORMAT_BASE+4 "WebP-opties"
+    IDS_FORMAT_BASE+5 "Compressie zonder verlies"
+    IDS_FORMAT_BASE+6 "Pictogramopties"
+    IDS_FORMAT_BASE+7 "Afbeeldingsgrootte"
+    IDS_FORMAT_BASE+8 "Andere afbeeldingen in pictogram behouden"
+    IDS_FORMAT_BASE+9 "Huidige grootte"
+    IDS_FORMAT_BASE+10 "ICO ondersteunt tot 256 × 256 pixels. Schalen behoudt de verhoudingen met transparante randen."
+    IDS_FORMAT_BASE+11 "Pictogramafbeelding kiezen"
+    IDS_FORMAT_BASE+12 "Te bewerken afbeelding"
+    IDS_FORMAT_BASE+13 "Het eerste animatiebeeld is geopend. Bewerken en opslaan maakt een stilstaand beeld. Gebruik Opslaan als om de animatie te behouden."
+    IDS_FORMAT_BASE+14 "24-bits bitmap"
+    IDS_FORMAT_BASE+15 "Monochrome bitmap"
+    IDS_FORMAT_BASE+16 "16-kleurenbitmap"
+    IDS_FORMAT_BASE+17 "256-kleurenbitmap"
+    IDS_FORMAT_BASE+18 "Pictogram"
+END
+
+LANGUAGE LANG_NORWEGIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG-alternativer"
+    IDS_FORMAT_BASE+1 "Flettet (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimaliser størrelse"
+    IDS_FORMAT_BASE+3 "Slår sammen lignende farger for en mindre fil. Arbeidslerretet beholder alle farger."
+    IDS_FORMAT_BASE+4 "WebP-alternativer"
+    IDS_FORMAT_BASE+5 "Tapsfri komprimering"
+    IDS_FORMAT_BASE+6 "Ikonalternativer"
+    IDS_FORMAT_BASE+7 "Bildestørrelse"
+    IDS_FORMAT_BASE+8 "Behold andre bilder i ikonet"
+    IDS_FORMAT_BASE+9 "Gjeldende størrelse"
+    IDS_FORMAT_BASE+10 "ICO støtter opptil 256 × 256 piksler. Skalering beholder proporsjonene med gjennomsiktige kanter."
+    IDS_FORMAT_BASE+11 "Velg ikonbilde"
+    IDS_FORMAT_BASE+12 "Bilde som skal redigeres"
+    IDS_FORMAT_BASE+13 "Det første animasjonsbildet er åpnet. Redigering og lagring lager et stillbilde. Bruk Lagre som for å beholde animasjonen."
+    IDS_FORMAT_BASE+14 "24-biters punktgrafikk"
+    IDS_FORMAT_BASE+15 "Monokrom punktgrafikk"
+    IDS_FORMAT_BASE+16 "Punktgrafikk med 16 farger"
+    IDS_FORMAT_BASE+17 "Punktgrafikk med 256 farger"
+    IDS_FORMAT_BASE+18 "Ikon"
+END
+
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Opcje PNG"
+    IDS_FORMAT_BASE+1 "Przeplot (Adam7)"
+    IDS_FORMAT_BASE+2 "Optymalizuj rozmiar"
+    IDS_FORMAT_BASE+3 "Łączy podobne kolory, zmniejszając plik. Płótno robocze zachowuje pełną gamę kolorów."
+    IDS_FORMAT_BASE+4 "Opcje WebP"
+    IDS_FORMAT_BASE+5 "Kompresja bezstratna"
+    IDS_FORMAT_BASE+6 "Opcje ikony"
+    IDS_FORMAT_BASE+7 "Rozmiar obrazu"
+    IDS_FORMAT_BASE+8 "Zachowaj pozostałe obrazy w ikonie"
+    IDS_FORMAT_BASE+9 "Bieżący rozmiar"
+    IDS_FORMAT_BASE+10 "ICO obsługuje do 256 × 256 pikseli. Skalowanie zachowuje proporcje i dodaje przezroczyste marginesy."
+    IDS_FORMAT_BASE+11 "Wybierz obraz ikony"
+    IDS_FORMAT_BASE+12 "Obraz do edycji"
+    IDS_FORMAT_BASE+13 "Otwarto pierwszą klatkę animacji. Edycja i zapis tworzą nieruchomy obraz. Użyj Zapisz jako, aby zachować animację."
+    IDS_FORMAT_BASE+14 "Mapa bitowa 24-bitowa"
+    IDS_FORMAT_BASE+15 "Monochromatyczna mapa bitowa"
+    IDS_FORMAT_BASE+16 "Mapa bitowa 16-kolorowa"
+    IDS_FORMAT_BASE+17 "Mapa bitowa 256-kolorowa"
+    IDS_FORMAT_BASE+18 "Ikona"
+END
+
+LANGUAGE LANG_ROMANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Opțiuni PNG"
+    IDS_FORMAT_BASE+1 "Întrețesut (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimizează dimensiunea"
+    IDS_FORMAT_BASE+3 "Combină culorile apropiate pentru un fișier mai mic. Pânza de lucru păstrează toate culorile."
+    IDS_FORMAT_BASE+4 "Opțiuni WebP"
+    IDS_FORMAT_BASE+5 "Compresie fără pierderi"
+    IDS_FORMAT_BASE+6 "Opțiuni pictogramă"
+    IDS_FORMAT_BASE+7 "Dimensiunea imaginii"
+    IDS_FORMAT_BASE+8 "Păstrează celelalte imagini din pictogramă"
+    IDS_FORMAT_BASE+9 "Dimensiunea actuală"
+    IDS_FORMAT_BASE+10 "ICO acceptă până la 256 × 256 pixeli. Redimensionarea păstrează proporțiile cu margini transparente."
+    IDS_FORMAT_BASE+11 "Alege imaginea pictogramei"
+    IDS_FORMAT_BASE+12 "Imagine de editat"
+    IDS_FORMAT_BASE+13 "Este deschis primul cadru al animației. Editarea și salvarea creează o imagine statică. Folosiți Salvare ca pentru a păstra animația."
+    IDS_FORMAT_BASE+14 "Bitmap pe 24 de biți"
+    IDS_FORMAT_BASE+15 "Bitmap monocrom"
+    IDS_FORMAT_BASE+16 "Bitmap cu 16 culori"
+    IDS_FORMAT_BASE+17 "Bitmap cu 256 de culori"
+    IDS_FORMAT_BASE+18 "Pictogramă"
+END
+
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Možnosti PNG"
+    IDS_FORMAT_BASE+1 "Prekladané (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimalizovať veľkosť"
+    IDS_FORMAT_BASE+3 "Spája podobné farby na zmenšenie súboru. Pracovné plátno zachováva všetky farby."
+    IDS_FORMAT_BASE+4 "Možnosti WebP"
+    IDS_FORMAT_BASE+5 "Bezstratová kompresia"
+    IDS_FORMAT_BASE+6 "Možnosti ikony"
+    IDS_FORMAT_BASE+7 "Veľkosť obrázka"
+    IDS_FORMAT_BASE+8 "Zachovať ostatné obrázky v ikone"
+    IDS_FORMAT_BASE+9 "Aktuálna veľkosť"
+    IDS_FORMAT_BASE+10 "ICO podporuje až 256 × 256 pixelov. Zmena veľkosti zachová pomer strán s priehľadnými okrajmi."
+    IDS_FORMAT_BASE+11 "Vybrať obrázok ikony"
+    IDS_FORMAT_BASE+12 "Obrázok na úpravu"
+    IDS_FORMAT_BASE+13 "Je otvorená prvá snímka animácie. Úpravy a uloženie vytvoria statický obrázok. Na zachovanie animácie použite Uložiť ako."
+    IDS_FORMAT_BASE+14 "24-bitová bitová mapa"
+    IDS_FORMAT_BASE+15 "Monochromatická bitová mapa"
+    IDS_FORMAT_BASE+16 "Bitová mapa so 16 farbami"
+    IDS_FORMAT_BASE+17 "Bitová mapa s 256 farbami"
+    IDS_FORMAT_BASE+18 "Ikona"
+END
+
+LANGUAGE LANG_ALBANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Opsionet PNG"
+    IDS_FORMAT_BASE+1 "Me ndërthurje (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimizo madhësinë"
+    IDS_FORMAT_BASE+3 "Bashkon ngjyra të ngjashme për një skedar më të vogël. Kanavaca e punës ruan të gjitha ngjyrat."
+    IDS_FORMAT_BASE+4 "Opsionet WebP"
+    IDS_FORMAT_BASE+5 "Kompresim pa humbje"
+    IDS_FORMAT_BASE+6 "Opsionet e ikonës"
+    IDS_FORMAT_BASE+7 "Madhësia e imazhit"
+    IDS_FORMAT_BASE+8 "Ruaj imazhet e tjera në ikonë"
+    IDS_FORMAT_BASE+9 "Madhësia aktuale"
+    IDS_FORMAT_BASE+10 "ICO mbështet deri në 256 × 256 pikselë. Ndryshimi i madhësisë ruan përmasat me skaje transparente."
+    IDS_FORMAT_BASE+11 "Zgjidh imazhin e ikonës"
+    IDS_FORMAT_BASE+12 "Imazhi për redaktim"
+    IDS_FORMAT_BASE+13 "Është hapur kuadri i parë i animacionit. Redaktimi dhe ruajtja krijojnë një imazh statik. Përdorni Ruaj si për të ruajtur animacionin."
+    IDS_FORMAT_BASE+14 "Bitmap 24-bitësh"
+    IDS_FORMAT_BASE+15 "Bitmap monokrom"
+    IDS_FORMAT_BASE+16 "Bitmap me 16 ngjyra"
+    IDS_FORMAT_BASE+17 "Bitmap me 256 ngjyra"
+    IDS_FORMAT_BASE+18 "Ikonë"
+END
+
+LANGUAGE LANG_SWEDISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG-alternativ"
+    IDS_FORMAT_BASE+1 "Sammanflätat (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimera storlek"
+    IDS_FORMAT_BASE+3 "Slår ihop liknande färger för en mindre fil. Arbetsytan behåller alla färger."
+    IDS_FORMAT_BASE+4 "WebP-alternativ"
+    IDS_FORMAT_BASE+5 "Förlustfri komprimering"
+    IDS_FORMAT_BASE+6 "Ikonalternativ"
+    IDS_FORMAT_BASE+7 "Bildstorlek"
+    IDS_FORMAT_BASE+8 "Behåll övriga bilder i ikonen"
+    IDS_FORMAT_BASE+9 "Aktuell storlek"
+    IDS_FORMAT_BASE+10 "ICO stöder upp till 256 × 256 bildpunkter. Skalning behåller proportionerna med genomskinliga kanter."
+    IDS_FORMAT_BASE+11 "Välj ikonbild"
+    IDS_FORMAT_BASE+12 "Bild att redigera"
+    IDS_FORMAT_BASE+13 "Animationens första bildruta är öppen. Redigering och sparande skapar en stillbild. Använd Spara som för att behålla animationen."
+    IDS_FORMAT_BASE+14 "24-bitars bitmapp"
+    IDS_FORMAT_BASE+15 "Monokrom bitmapp"
+    IDS_FORMAT_BASE+16 "Bitmapp med 16 färger"
+    IDS_FORMAT_BASE+17 "Bitmapp med 256 färger"
+    IDS_FORMAT_BASE+18 "Ikon"
+END
+
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG seçenekleri"
+    IDS_FORMAT_BASE+1 "Geçişli (Adam7)"
+    IDS_FORMAT_BASE+2 "Boyutu iyileştir"
+    IDS_FORMAT_BASE+3 "Benzer renkleri birleştirerek dosyayı küçültür. Çalışma tuvali tam renkli kalır."
+    IDS_FORMAT_BASE+4 "WebP seçenekleri"
+    IDS_FORMAT_BASE+5 "Kayıpsız sıkıştırma"
+    IDS_FORMAT_BASE+6 "Simge seçenekleri"
+    IDS_FORMAT_BASE+7 "Görüntü boyutu"
+    IDS_FORMAT_BASE+8 "Simgedeki diğer görüntüleri koru"
+    IDS_FORMAT_BASE+9 "Geçerli boyut"
+    IDS_FORMAT_BASE+10 "ICO en fazla 256 × 256 piksel destekler. Boyutlandırma oranları korur ve saydam kenarlar ekler."
+    IDS_FORMAT_BASE+11 "Simge görüntüsünü seç"
+    IDS_FORMAT_BASE+12 "Düzenlenecek görüntü"
+    IDS_FORMAT_BASE+13 "Animasyonun ilk karesi açıldı. Düzenleme ve kaydetme sabit bir görüntü oluşturur. Animasyonu korumak için Farklı kaydet kullanın."
+    IDS_FORMAT_BASE+14 "24 bit bit eşlem"
+    IDS_FORMAT_BASE+15 "Tek renkli bit eşlem"
+    IDS_FORMAT_BASE+16 "16 renkli bit eşlem"
+    IDS_FORMAT_BASE+17 "256 renkli bit eşlem"
+    IDS_FORMAT_BASE+18 "Simge"
+END
+
+LANGUAGE LANG_VIETNAMESE, SUBLANG_VIETNAMESE_VIETNAM
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "Tùy chọn PNG"
+    IDS_FORMAT_BASE+1 "Xen kẽ (Adam7)"
+    IDS_FORMAT_BASE+2 "Tối ưu kích thước"
+    IDS_FORMAT_BASE+3 "Gộp các màu gần nhau để giảm kích thước tệp. Vùng vẽ vẫn có đầy đủ màu sắc."
+    IDS_FORMAT_BASE+4 "Tùy chọn WebP"
+    IDS_FORMAT_BASE+5 "Nén không mất dữ liệu"
+    IDS_FORMAT_BASE+6 "Tùy chọn biểu tượng"
+    IDS_FORMAT_BASE+7 "Kích thước ảnh"
+    IDS_FORMAT_BASE+8 "Giữ các ảnh khác trong biểu tượng"
+    IDS_FORMAT_BASE+9 "Kích thước hiện tại"
+    IDS_FORMAT_BASE+10 "ICO hỗ trợ tối đa 256 × 256 điểm ảnh. Đổi kích thước giữ nguyên tỷ lệ và thêm lề trong suốt."
+    IDS_FORMAT_BASE+11 "Chọn ảnh biểu tượng"
+    IDS_FORMAT_BASE+12 "Ảnh để chỉnh sửa"
+    IDS_FORMAT_BASE+13 "Đã mở khung hình đầu tiên. Chỉnh sửa và lưu sẽ tạo ảnh tĩnh. Dùng Lưu thành để giữ lại ảnh động."
+    IDS_FORMAT_BASE+14 "Bitmap 24 bit"
+    IDS_FORMAT_BASE+15 "Bitmap đơn sắc"
+    IDS_FORMAT_BASE+16 "Bitmap 16 màu"
+    IDS_FORMAT_BASE+17 "Bitmap 256 màu"
+    IDS_FORMAT_BASE+18 "Biểu tượng"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG 选项"
+    IDS_FORMAT_BASE+1 "交错显示 (Adam7)"
+    IDS_FORMAT_BASE+2 "优化文件大小"
+    IDS_FORMAT_BASE+3 "合并相近颜色以缩小文件。工作画布仍保持全彩色。"
+    IDS_FORMAT_BASE+4 "WebP 选项"
+    IDS_FORMAT_BASE+5 "无损压缩"
+    IDS_FORMAT_BASE+6 "图标选项"
+    IDS_FORMAT_BASE+7 "图像尺寸"
+    IDS_FORMAT_BASE+8 "保留图标中的其他图像"
+    IDS_FORMAT_BASE+9 "当前尺寸"
+    IDS_FORMAT_BASE+10 "ICO 最大支持 256 × 256 像素。调整尺寸时保持比例，并添加透明边距。"
+    IDS_FORMAT_BASE+11 "选择图标图像"
+    IDS_FORMAT_BASE+12 "要编辑的图像"
+    IDS_FORMAT_BASE+13 "已打开动画的第一帧。编辑和保存将生成静态图像。请使用“另存为”保留原始动画。"
+    IDS_FORMAT_BASE+14 "24 位位图"
+    IDS_FORMAT_BASE+15 "单色位图"
+    IDS_FORMAT_BASE+16 "16 色位图"
+    IDS_FORMAT_BASE+17 "256 色位图"
+    IDS_FORMAT_BASE+18 "图标"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG 選項"
+    IDS_FORMAT_BASE+1 "交錯顯示 (Adam7)"
+    IDS_FORMAT_BASE+2 "最佳化檔案大小"
+    IDS_FORMAT_BASE+3 "合併相近色彩以縮小檔案。工作畫布仍保持全彩色。"
+    IDS_FORMAT_BASE+4 "WebP 選項"
+    IDS_FORMAT_BASE+5 "無損壓縮"
+    IDS_FORMAT_BASE+6 "圖示選項"
+    IDS_FORMAT_BASE+7 "圖像尺寸"
+    IDS_FORMAT_BASE+8 "保留圖示中的其他圖像"
+    IDS_FORMAT_BASE+9 "目前尺寸"
+    IDS_FORMAT_BASE+10 "ICO 最大支援 256 × 256 像素。調整尺寸時保留比例，並加入透明邊距。"
+    IDS_FORMAT_BASE+11 "選擇圖示圖像"
+    IDS_FORMAT_BASE+12 "要編輯的圖像"
+    IDS_FORMAT_BASE+13 "已開啟動畫的第一個影格。編輯及儲存將產生靜態圖像。請使用「另存新檔」保留原始動畫。"
+    IDS_FORMAT_BASE+14 "24 位元點陣圖"
+    IDS_FORMAT_BASE+15 "單色點陣圖"
+    IDS_FORMAT_BASE+16 "16 色點陣圖"
+    IDS_FORMAT_BASE+17 "256 色點陣圖"
+    IDS_FORMAT_BASE+18 "圖示"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG 選項"
+    IDS_FORMAT_BASE+1 "交錯顯示 (Adam7)"
+    IDS_FORMAT_BASE+2 "最佳化檔案大小"
+    IDS_FORMAT_BASE+3 "合併相近色彩以縮小檔案。工作畫布仍保持全彩色。"
+    IDS_FORMAT_BASE+4 "WebP 選項"
+    IDS_FORMAT_BASE+5 "無損壓縮"
+    IDS_FORMAT_BASE+6 "圖示選項"
+    IDS_FORMAT_BASE+7 "影像尺寸"
+    IDS_FORMAT_BASE+8 "保留圖示中的其他影像"
+    IDS_FORMAT_BASE+9 "目前尺寸"
+    IDS_FORMAT_BASE+10 "ICO 最大支援 256 × 256 像素。調整尺寸時保留比例，並加入透明邊距。"
+    IDS_FORMAT_BASE+11 "選擇圖示影像"
+    IDS_FORMAT_BASE+12 "要編輯的影像"
+    IDS_FORMAT_BASE+13 "已開啟動畫的第一個影格。編輯及儲存將產生靜態影像。請使用「另存新檔」保留原始動畫。"
+    IDS_FORMAT_BASE+14 "24 位元點陣圖"
+    IDS_FORMAT_BASE+15 "單色點陣圖"
+    IDS_FORMAT_BASE+16 "16 色點陣圖"
+    IDS_FORMAT_BASE+17 "256 色點陣圖"
+    IDS_FORMAT_BASE+18 "圖示"
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+0 "PNG options"
+    IDS_FORMAT_BASE+1 "Interlaced (Adam7)"
+    IDS_FORMAT_BASE+2 "Optimize file size"
+    IDS_FORMAT_BASE+3 "Reduces file size by merging similar colors. The working canvas stays full color."
+    IDS_FORMAT_BASE+4 "WebP options"
+    IDS_FORMAT_BASE+5 "Lossless compression"
+    IDS_FORMAT_BASE+6 "Icon options"
+    IDS_FORMAT_BASE+7 "Image size"
+    IDS_FORMAT_BASE+8 "Keep other images in this icon"
+    IDS_FORMAT_BASE+9 "Current size"
+    IDS_FORMAT_BASE+10 "ICO supports up to 256 × 256 pixels. Resizing keeps proportions and adds transparent padding."
+    IDS_FORMAT_BASE+11 "Choose icon image"
+    IDS_FORMAT_BASE+12 "Image to edit"
+    IDS_FORMAT_BASE+13 "The first animation frame is open. Editing and saving produce a still image; use Save As to keep the animation."
+    IDS_FORMAT_BASE+14 "24-bit bitmap"
+    IDS_FORMAT_BASE+15 "Monochrome bitmap"
+    IDS_FORMAT_BASE+16 "16-color bitmap"
+    IDS_FORMAT_BASE+17 "256-color bitmap"
+    IDS_FORMAT_BASE+18 "Icon"
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "This file contains several images, pages or texture levels. The first image is open for editing. Saving creates a single image; a new filename is suggested to preserve the original."
+END
+
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Файл содержит несколько изображений, страниц или уровней текстуры. Для редактирования открыто первое изображение. Сохраняется только оно; предложено новое имя файла, чтобы сохранить оригинал."
+END
+
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Die Datei enthält mehrere Bilder, Seiten oder Texturstufen. Das erste Bild ist zum Bearbeiten geöffnet. Gespeichert wird ein einzelnes Bild; ein neuer Dateiname schützt das Original."
+END
+
+LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "El archivo contiene varias imágenes, páginas o niveles de textura. Se ha abierto la primera imagen. Se guardará una sola imagen; se propone otro nombre para conservar el original."
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "O ficheiro contém várias imagens, páginas ou níveis de textura. A primeira imagem está aberta para edição. Será guardada uma só imagem; é sugerido outro nome para preservar o original."
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "O arquivo contém várias imagens, páginas ou níveis de textura. A primeira imagem está aberta para edição. Será salva uma só imagem; outro nome é sugerido para preservar o original."
+END
+
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Файлът съдържа няколко изображения, страници или нива на текстура. Отворено е първото изображение. Записва се само то; предложено е ново име за запазване на оригинала."
+END
+
+LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Soubor obsahuje více obrázků, stránek nebo úrovní textury. K úpravám je otevřen první obrázek. Uloží se jen tento obrázek; nový název chrání původní soubor."
+END
+
+LANGUAGE LANG_ESTONIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Fail sisaldab mitut pilti, lehekülge või tekstuuritaset. Muutmiseks on avatud esimene pilt. Salvestatakse üks pilt; algse faili säilitamiseks pakutakse uut nime."
+END
+
+LANGUAGE LANG_BASQUE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Fitxategiak hainbat irudi, orrialde edo testura-maila ditu. Lehen irudia ireki da editatzeko. Irudi bakarra gordeko da; jatorrizkoa mantentzeko beste izen bat proposatzen da."
+END
+
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Ce fichier contient plusieurs images, pages ou niveaux de texture. La première image est ouverte. Une seule image sera enregistrée ; un nouveau nom est proposé pour préserver l’original."
+END
+
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "הקובץ מכיל כמה תמונות, עמודים או רמות מרקם. התמונה הראשונה נפתחה לעריכה. תישמר תמונה אחת בלבד; מוצע שם קובץ חדש כדי לשמור על המקור."
+END
+
+LANGUAGE LANG_CROATIAN, SUBLANG_CROATIAN_CROATIA
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Datoteka sadrži više slika, stranica ili razina teksture. Prva slika otvorena je za uređivanje. Sprema se samo ona; predloženo je novo ime radi očuvanja izvornika."
+END
+
+LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "A fájl több képet, oldalt vagy textúraszintet tartalmaz. Az első kép nyílt meg szerkesztésre. Csak ez a kép lesz mentve; az eredeti megőrzéséhez új fájlnév javasolt."
+END
+
+LANGUAGE LANG_INDONESIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Berkas ini berisi beberapa gambar, halaman, atau tingkat tekstur. Gambar pertama dibuka untuk diedit. Hanya satu gambar yang disimpan; nama baru disarankan agar berkas asli tetap terjaga."
+END
+
+LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Il file contiene più immagini, pagine o livelli di texture. La prima immagine è aperta per la modifica. Verrà salvata una sola immagine; un nuovo nome preserva l’originale."
+END
+
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "このファイルには複数の画像、ページ、またはテクスチャレベルがあります。最初の画像を編集用に開きました。保存されるのはこの画像のみです。元のファイルを残すため、新しいファイル名を提案します。"
+END
+
+LANGUAGE LANG_DUTCH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Dit bestand bevat meerdere afbeeldingen, pagina’s of textuurniveaus. De eerste afbeelding is geopend. Er wordt één afbeelding opgeslagen; een nieuwe bestandsnaam beschermt het origineel."
+END
+
+LANGUAGE LANG_NORWEGIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Filen inneholder flere bilder, sider eller teksturnivåer. Det første bildet er åpnet for redigering. Bare ett bilde lagres; et nytt filnavn foreslås for å bevare originalen."
+END
+
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Plik zawiera kilka obrazów, stron lub poziomów tekstury. Otwarty jest pierwszy obraz. Zapisany zostanie tylko ten obraz; nowa nazwa pliku pozwoli zachować oryginał."
+END
+
+LANGUAGE LANG_ROMANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Fișierul conține mai multe imagini, pagini sau niveluri de textură. Prima imagine este deschisă pentru editare. Se salvează o singură imagine; un nume nou păstrează originalul."
+END
+
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Súbor obsahuje viac obrázkov, strán alebo úrovní textúry. Na úpravy je otvorený prvý obrázok. Uloží sa iba tento obrázok; nový názov chráni pôvodný súbor."
+END
+
+LANGUAGE LANG_ALBANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Skedari përmban disa imazhe, faqe ose nivele teksture. Imazhi i parë është hapur për redaktim. Ruhet vetëm një imazh; propozohet një emër i ri për të ruajtur origjinalin."
+END
+
+LANGUAGE LANG_SWEDISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Filen innehåller flera bilder, sidor eller texturnivåer. Den första bilden är öppen för redigering. Bara en bild sparas; ett nytt filnamn föreslås för att bevara originalet."
+END
+
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Dosya birden fazla görüntü, sayfa veya doku düzeyi içeriyor. İlk görüntü düzenleme için açıldı. Tek görüntü kaydedilir; özgün dosyayı korumak için yeni ad önerilir."
+END
+
+LANGUAGE LANG_VIETNAMESE, SUBLANG_VIETNAMESE_VIETNAM
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "Tệp chứa nhiều ảnh, trang hoặc mức kết cấu. Ảnh đầu tiên được mở để chỉnh sửa. Chỉ lưu một ảnh; tên tệp mới được đề xuất để giữ nguyên bản gốc."
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "文件包含多个图像、页面或纹理级别。已打开第一个图像进行编辑。保存时仅保留此图像；建议使用新文件名以保留原始文件。"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "檔案包含多個圖像、頁面或紋理層級。已開啟第一個圖像進行編輯。儲存時只保留此圖像；建議使用新檔名以保留原始檔案。"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "檔案包含多個影像、頁面或紋理層級。已開啟第一個影像進行編輯。儲存時只保留此影像；建議使用新檔名以保留原始檔案。"
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+STRINGTABLE
+BEGIN
+    IDS_MULTI_IMAGE_FIRST "This file contains several images, pages or texture levels. The first image is open for editing. Saving creates a single image; a new filename is suggested to preserve the original."
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS options"
+    IDS_FORMAT_BASE+21 "Compression"
+    IDS_FORMAT_BASE+22 "Uncompressed"
+    IDS_FORMAT_BASE+23 "DXT compression is lossy. DXT1: on/off transparency. DXT3: 16 opacity levels. DXT5: smoother opacity gradients."
+END
+
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Параметры DDS"
+    IDS_FORMAT_BASE+21 "Сжатие"
+    IDS_FORMAT_BASE+22 "Без сжатия"
+    IDS_FORMAT_BASE+23 "DXT — сжатие с потерями. DXT1: прозрачность да/нет. DXT3: 16 уровней прозрачности. DXT5: плавные переходы прозрачности."
+END
+
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS-Optionen"
+    IDS_FORMAT_BASE+21 "Komprimierung"
+    IDS_FORMAT_BASE+22 "Unkomprimiert"
+    IDS_FORMAT_BASE+23 "DXT ist verlustbehaftet. DXT1: Transparenz ein/aus. DXT3: 16 Deckkraftstufen. DXT5: weichere Deckkraftverläufe."
+END
+
+LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Opciones DDS"
+    IDS_FORMAT_BASE+21 "Compresión"
+    IDS_FORMAT_BASE+22 "Sin compresión"
+    IDS_FORMAT_BASE+23 "DXT usa compresión con pérdida. DXT1: transparencia sí/no. DXT3: 16 niveles de opacidad. DXT5: gradaciones más suaves."
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Opções DDS"
+    IDS_FORMAT_BASE+21 "Compressão"
+    IDS_FORMAT_BASE+22 "Sem compressão"
+    IDS_FORMAT_BASE+23 "DXT usa compressão com perdas. DXT1: transparência sim/não. DXT3: 16 níveis de opacidade. DXT5: transições mais suaves."
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Opções DDS"
+    IDS_FORMAT_BASE+21 "Compressão"
+    IDS_FORMAT_BASE+22 "Sem compressão"
+    IDS_FORMAT_BASE+23 "DXT usa compressão com perdas. DXT1: transparência sim/não. DXT3: 16 níveis de opacidade. DXT5: transições mais suaves."
+END
+
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Настройки на DDS"
+    IDS_FORMAT_BASE+21 "Компресия"
+    IDS_FORMAT_BASE+22 "Без компресия"
+    IDS_FORMAT_BASE+23 "DXT е компресия със загуби. DXT1: прозрачност да/не. DXT3: 16 нива на непрозрачност. DXT5: по-плавни преходи."
+END
+
+LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Možnosti DDS"
+    IDS_FORMAT_BASE+21 "Komprese"
+    IDS_FORMAT_BASE+22 "Bez komprese"
+    IDS_FORMAT_BASE+23 "DXT je ztrátová komprese. DXT1: průhlednost ano/ne. DXT3: 16 úrovní krytí. DXT5: plynulejší přechody krytí."
+END
+
+LANGUAGE LANG_ESTONIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS-i valikud"
+    IDS_FORMAT_BASE+21 "Tihendus"
+    IDS_FORMAT_BASE+22 "Tihendamata"
+    IDS_FORMAT_BASE+23 "DXT on kadudega tihendus. DXT1: läbipaistvus sees/väljas. DXT3: 16 katvuse taset. DXT5: sujuvamad katvuse üleminekud."
+END
+
+LANGUAGE LANG_BASQUE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS aukerak"
+    IDS_FORMAT_BASE+21 "Konpresioa"
+    IDS_FORMAT_BASE+22 "Konprimitu gabe"
+    IDS_FORMAT_BASE+23 "DXT galeradun konpresioa da. DXT1: gardentasuna bai/ez. DXT3: 16 opakutasun-maila. DXT5: opakutasun-gradiente leunagoak."
+END
+
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Options DDS"
+    IDS_FORMAT_BASE+21 "Compression"
+    IDS_FORMAT_BASE+22 "Sans compression"
+    IDS_FORMAT_BASE+23 "DXT est une compression avec perte. DXT1 : transparence oui/non. DXT3 : 16 niveaux d’opacité. DXT5 : dégradés d’opacité plus doux."
+END
+
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "אפשרויות DDS"
+    IDS_FORMAT_BASE+21 "דחיסה"
+    IDS_FORMAT_BASE+22 "ללא דחיסה"
+    IDS_FORMAT_BASE+23 "דחיסת DXT מאבדת מידע. DXT1: שקוף או אטום. DXT3: 16 רמות אטימות. DXT5: מעברי אטימות חלקים יותר."
+END
+
+LANGUAGE LANG_CROATIAN, SUBLANG_CROATIAN_CROATIA
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Mogućnosti DDS-a"
+    IDS_FORMAT_BASE+21 "Sažimanje"
+    IDS_FORMAT_BASE+22 "Bez sažimanja"
+    IDS_FORMAT_BASE+23 "DXT sažimanje je s gubitkom. DXT1: prozirno/neprozirno. DXT3: 16 razina neprozirnosti. DXT5: glađi prijelazi neprozirnosti."
+END
+
+LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS-beállítások"
+    IDS_FORMAT_BASE+21 "Tömörítés"
+    IDS_FORMAT_BASE+22 "Tömörítetlen"
+    IDS_FORMAT_BASE+23 "A DXT veszteséges tömörítés. DXT1: átlátszó vagy fedett. DXT3: 16 fedettségi szint. DXT5: simább fedettségi átmenetek."
+END
+
+LANGUAGE LANG_INDONESIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Opsi DDS"
+    IDS_FORMAT_BASE+21 "Kompresi"
+    IDS_FORMAT_BASE+22 "Tanpa kompresi"
+    IDS_FORMAT_BASE+23 "DXT adalah kompresi lossy. DXT1: transparan atau buram. DXT3: 16 tingkat opasitas. DXT5: gradasi opasitas lebih halus."
+END
+
+LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Opzioni DDS"
+    IDS_FORMAT_BASE+21 "Compressione"
+    IDS_FORMAT_BASE+22 "Non compresso"
+    IDS_FORMAT_BASE+23 "DXT usa una compressione con perdita. DXT1: trasparenza sì/no. DXT3: 16 livelli di opacità. DXT5: sfumature di opacità più uniformi."
+END
+
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS オプション"
+    IDS_FORMAT_BASE+21 "圧縮"
+    IDS_FORMAT_BASE+22 "非圧縮"
+    IDS_FORMAT_BASE+23 "DXT は非可逆圧縮です。DXT1：透明または不透明。DXT3：16 段階の不透明度。DXT5：より滑らかな不透明度の変化。"
+END
+
+LANGUAGE LANG_DUTCH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS-opties"
+    IDS_FORMAT_BASE+21 "Compressie"
+    IDS_FORMAT_BASE+22 "Ongecomprimeerd"
+    IDS_FORMAT_BASE+23 "DXT is compressie met verlies. DXT1: transparant of ondoorzichtig. DXT3: 16 dekkingsniveaus. DXT5: vloeiendere dekkingsovergangen."
+END
+
+LANGUAGE LANG_NORWEGIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS-alternativer"
+    IDS_FORMAT_BASE+21 "Komprimering"
+    IDS_FORMAT_BASE+22 "Ukomprimert"
+    IDS_FORMAT_BASE+23 "DXT har tap. DXT1: gjennomsiktig eller ugjennomsiktig. DXT3: 16 nivåer av ugjennomsiktighet. DXT5: jevnere overganger."
+END
+
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Opcje DDS"
+    IDS_FORMAT_BASE+21 "Kompresja"
+    IDS_FORMAT_BASE+22 "Bez kompresji"
+    IDS_FORMAT_BASE+23 "DXT to kompresja stratna. DXT1: przezroczystość tak/nie. DXT3: 16 poziomów krycia. DXT5: płynniejsze przejścia krycia."
+END
+
+LANGUAGE LANG_ROMANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Opțiuni DDS"
+    IDS_FORMAT_BASE+21 "Compresie"
+    IDS_FORMAT_BASE+22 "Fără compresie"
+    IDS_FORMAT_BASE+23 "DXT este compresie cu pierderi. DXT1: transparent sau opac. DXT3: 16 niveluri de opacitate. DXT5: tranziții mai line de opacitate."
+END
+
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Možnosti DDS"
+    IDS_FORMAT_BASE+21 "Kompresia"
+    IDS_FORMAT_BASE+22 "Bez kompresie"
+    IDS_FORMAT_BASE+23 "DXT je stratová kompresia. DXT1: priehľadnosť áno/nie. DXT3: 16 úrovní krytia. DXT5: plynulejšie prechody krytia."
+END
+
+LANGUAGE LANG_ALBANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Opsionet DDS"
+    IDS_FORMAT_BASE+21 "Kompresimi"
+    IDS_FORMAT_BASE+22 "Pa kompresim"
+    IDS_FORMAT_BASE+23 "DXT është kompresim me humbje. DXT1: transparent ose i patejdukshëm. DXT3: 16 nivele patejdukshmërie. DXT5: kalime më të buta."
+END
+
+LANGUAGE LANG_SWEDISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS-alternativ"
+    IDS_FORMAT_BASE+21 "Komprimering"
+    IDS_FORMAT_BASE+22 "Okomprimerat"
+    IDS_FORMAT_BASE+23 "DXT har förluster. DXT1: genomskinligt eller ogenomskinligt. DXT3: 16 opacitetsnivåer. DXT5: mjukare opacitetsövergångar."
+END
+
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS seçenekleri"
+    IDS_FORMAT_BASE+21 "Sıkıştırma"
+    IDS_FORMAT_BASE+22 "Sıkıştırmasız"
+    IDS_FORMAT_BASE+23 "DXT kayıplı sıkıştırmadır. DXT1: saydam veya opak. DXT3: 16 opaklık düzeyi. DXT5: daha yumuşak opaklık geçişleri."
+END
+
+LANGUAGE LANG_VIETNAMESE, SUBLANG_VIETNAMESE_VIETNAM
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "Tùy chọn DDS"
+    IDS_FORMAT_BASE+21 "Nén"
+    IDS_FORMAT_BASE+22 "Không nén"
+    IDS_FORMAT_BASE+23 "DXT là nén mất dữ liệu. DXT1: trong suốt hoặc đục. DXT3: 16 mức độ đục. DXT5: chuyển tiếp độ đục mượt hơn."
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS 选项"
+    IDS_FORMAT_BASE+21 "压缩"
+    IDS_FORMAT_BASE+22 "不压缩"
+    IDS_FORMAT_BASE+23 "DXT 为有损压缩。DXT1：透明或不透明。DXT3：16 级不透明度。DXT5：更平滑的不透明度渐变。"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS 選項"
+    IDS_FORMAT_BASE+21 "壓縮"
+    IDS_FORMAT_BASE+22 "不壓縮"
+    IDS_FORMAT_BASE+23 "DXT 為有損壓縮。DXT1：透明或不透明。DXT3：16 級不透明度。DXT5：更平滑的不透明度漸變。"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS 選項"
+    IDS_FORMAT_BASE+21 "壓縮"
+    IDS_FORMAT_BASE+22 "不壓縮"
+    IDS_FORMAT_BASE+23 "DXT 為有損壓縮。DXT1：透明或不透明。DXT3：16 級不透明度。DXT5：更平滑的不透明度漸層。"
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+STRINGTABLE
+BEGIN
+    IDS_FORMAT_BASE+20 "DDS options"
+    IDS_FORMAT_BASE+21 "Compression"
+    IDS_FORMAT_BASE+22 "Uncompressed"
+    IDS_FORMAT_BASE+23 "DXT compression is lossy. DXT1: on/off transparency. DXT3: 16 opacity levels. DXT5: smoother opacity gradients."
+END

@@ -1,0 +1,18 @@
+Classic Paint Plus
+==================
+Plus version development: Nicolay S.
+
+Based on ReactOS Paint / RPaint.
+Original Paint contributors include:
+  Benedikt Freisen
+  Katayama Hirofumi MZ
+  Stanislav Motylkov
+  and other ReactOS contributors identified in source-file notices and history.
+
+Upstream snapshot:
+  https://github.com/reactos/reactos
+  447673979ce8a19188628cac6053a5d20c368237
+  base/applications/mspaint
+
+Bundled codec authors and license texts are listed in JPEG-NOTICES.txt,
+IMAGE-NOTICES.txt and the corresponding third_party directories.

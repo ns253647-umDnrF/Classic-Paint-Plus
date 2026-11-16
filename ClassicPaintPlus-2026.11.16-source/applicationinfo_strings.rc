@@ -1,0 +1,271 @@
+#include "applicationinfo.h"
+
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Класически растерен редактор с разширени инструменти за рисуване и обработка на изображения."
+    IDS_ABOUT_CREDITS "Базиран на ReactOS Paint (RPaint).\r\nАвтори на оригиналния изходен код:\r\n%s\r\nи други участници в ReactOS."
+    IDS_ABOUT_HELP "Ръководство за потребителя"
+    IDS_HELP_FILE_ERROR "Файлът с помощта не може да бъде отворен:\n%s\nФайловете с помощта трябва да са в папката на програмата."
+END
+
+LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Klasický bitmapový editor s rozšířenými nástroji pro kreslení a úpravy obrázků."
+    IDS_ABOUT_CREDITS "Založeno na ReactOS Paint (RPaint).\r\nAutoři původního zdrojového kódu:\r\n%s\r\na další přispěvatelé ReactOS."
+    IDS_ABOUT_HELP "Uživatelská příručka"
+    IDS_HELP_FILE_ERROR "Soubor nápovědy nelze otevřít:\n%s\nSoubory nápovědy musí být ve složce programu."
+END
+
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Ein klassischer Rastergrafikeditor mit erweiterten Zeichen- und Bildwerkzeugen."
+    IDS_ABOUT_CREDITS "Basiert auf ReactOS Paint (RPaint).\r\nAutoren des ursprünglichen Quellcodes:\r\n%s\r\nund weitere Mitwirkende von ReactOS."
+    IDS_ABOUT_HELP "Benutzerhandbuch"
+    IDS_HELP_FILE_ERROR "Die Hilfedatei konnte nicht geöffnet werden:\n%s\nDie Hilfedateien müssen im Programmordner liegen."
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "A classic bitmap editor with extended drawing and image tools."
+    IDS_ABOUT_CREDITS "Based on ReactOS Paint (RPaint).\r\nOriginal source authors:\r\n%s\r\nand other ReactOS contributors."
+    IDS_ABOUT_HELP "User guide"
+    IDS_HELP_FILE_ERROR "Could not open the help file:\n%s\nKeep the help files in the same folder as the application."
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "A classic bitmap editor with extended drawing and image tools."
+    IDS_ABOUT_CREDITS "Based on ReactOS Paint (RPaint).\r\nOriginal source authors:\r\n%s\r\nand other ReactOS contributors."
+    IDS_ABOUT_HELP "User guide"
+    IDS_HELP_FILE_ERROR "Could not open the help file:\n%s\nKeep the help files in the same folder as the application."
+END
+
+LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Editor de imágenes clásico con herramientas ampliadas de dibujo y edición."
+    IDS_ABOUT_CREDITS "Basado en ReactOS Paint (RPaint).\r\nAutores del código original:\r\n%s\r\ny otros colaboradores de ReactOS."
+    IDS_ABOUT_HELP "Guía del usuario"
+    IDS_HELP_FILE_ERROR "No se pudo abrir el archivo de ayuda:\n%s\nLos archivos de ayuda deben estar en la carpeta del programa."
+END
+
+LANGUAGE LANG_ESTONIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Klassikaline rastergraafikaredaktor täiendavate joonistus- ja pilditöötlusvahenditega."
+    IDS_ABOUT_CREDITS "Põhineb programmil ReactOS Paint (RPaint).\r\nAlgse lähtekoodi autorid:\r\n%s\r\nja teised ReactOS-i kaastöölised."
+    IDS_ABOUT_HELP "Kasutusjuhend"
+    IDS_HELP_FILE_ERROR "Abifaili ei saanud avada:\n%s\nAbifailid peavad asuma programmi kaustas."
+END
+
+LANGUAGE LANG_BASQUE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Bitmap editore klasikoa, marrazteko eta irudiak editatzeko tresna aurreratuekin."
+    IDS_ABOUT_CREDITS "ReactOS Paint (RPaint) oinarri hartuta.\r\nJatorrizko iturburu-kodearen egileak:\r\n%s\r\neta ReactOS proiektuko beste laguntzaile batzuk."
+    IDS_ABOUT_HELP "Erabiltzailearen gida"
+    IDS_HELP_FILE_ERROR "Ezin izan da laguntza-fitxategia ireki:\n%s\nLaguntza-fitxategiek programaren karpetan egon behar dute."
+END
+
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Éditeur bitmap classique doté de fonctions avancées de dessin et de retouche."
+    IDS_ABOUT_CREDITS "Basé sur ReactOS Paint (RPaint).\r\nAuteurs du code source d’origine :\r\n%s\r\net autres contributeurs de ReactOS."
+    IDS_ABOUT_HELP "Guide de l’utilisateur"
+    IDS_HELP_FILE_ERROR "Impossible d’ouvrir le fichier d’aide :\n%s\nLes fichiers d’aide doivent se trouver dans le dossier du programme."
+END
+
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "עורך תמונות רסטר קלאסי עם כלי ציור ועריכת תמונות מורחבים."
+    IDS_ABOUT_CREDITS "מבוסס על ReactOS Paint (RPaint).\r\nמחברי קוד המקור המקורי:\r\n%s\r\nותורמים נוספים ל־ReactOS."
+    IDS_ABOUT_HELP "מדריך למשתמש"
+    IDS_HELP_FILE_ERROR "לא ניתן לפתוח את קובץ העזרה:\n%s\nקובצי העזרה צריכים להימצא בתיקיית התוכנה."
+END
+
+LANGUAGE LANG_CROATIAN, SUBLANG_CROATIAN_CROATIA
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Klasični uređivač rasterskih slika s proširenim alatima za crtanje i obradu slika."
+    IDS_ABOUT_CREDITS "Temelji se na programu ReactOS Paint (RPaint).\r\nAutori izvornog koda:\r\n%s\r\ni drugi suradnici projekta ReactOS."
+    IDS_ABOUT_HELP "Korisnički priručnik"
+    IDS_HELP_FILE_ERROR "Nije moguće otvoriti datoteku pomoći:\n%s\nDatoteke pomoći moraju biti u mapi programa."
+END
+
+LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Klasszikus képszerkesztő kibővített rajzoló- és képfeldolgozó eszközökkel."
+    IDS_ABOUT_CREDITS "A ReactOS Paint (RPaint) alapján készült.\r\nAz eredeti forráskód szerzői:\r\n%s\r\nés a ReactOS további közreműködői."
+    IDS_ABOUT_HELP "Felhasználói kézikönyv"
+    IDS_HELP_FILE_ERROR "Nem sikerült megnyitni a súgófájlt:\n%s\nA súgófájloknak a program mappájában kell lenniük."
+END
+
+LANGUAGE LANG_INDONESIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Editor gambar bitmap klasik dengan alat menggambar dan penyuntingan yang diperluas."
+    IDS_ABOUT_CREDITS "Berdasarkan ReactOS Paint (RPaint).\r\nPenulis kode sumber asli:\r\n%s\r\ndan kontributor ReactOS lainnya."
+    IDS_ABOUT_HELP "Panduan pengguna"
+    IDS_HELP_FILE_ERROR "Berkas bantuan tidak dapat dibuka:\n%s\nBerkas bantuan harus berada di folder program."
+END
+
+LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Editor bitmap classico con strumenti avanzati di disegno e modifica delle immagini."
+    IDS_ABOUT_CREDITS "Basato su ReactOS Paint (RPaint).\r\nAutori del codice sorgente originale:\r\n%s\r\ne altri collaboratori di ReactOS."
+    IDS_ABOUT_HELP "Guida utente"
+    IDS_HELP_FILE_ERROR "Impossibile aprire il file della guida:\n%s\nI file della guida devono trovarsi nella cartella del programma."
+END
+
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "描画と画像編集の機能を拡張した、クラシックなビットマップエディターです。"
+    IDS_ABOUT_CREDITS "ReactOS Paint (RPaint) を基にしています。\r\n元のソースコードの作者：\r\n%s\r\nおよび ReactOS のその他の貢献者。"
+    IDS_ABOUT_HELP "ユーザーガイド"
+    IDS_HELP_FILE_ERROR "ヘルプファイルを開けませんでした：\n%s\nヘルプファイルをプログラムと同じフォルダーに置いてください。"
+END
+
+LANGUAGE LANG_DUTCH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Klassieke bitmapeditor met uitgebreide teken- en beeldbewerkingsfuncties."
+    IDS_ABOUT_CREDITS "Gebaseerd op ReactOS Paint (RPaint).\r\nAuteurs van de oorspronkelijke broncode:\r\n%s\r\nen andere ReactOS-bijdragers."
+    IDS_ABOUT_HELP "Gebruikershandleiding"
+    IDS_HELP_FILE_ERROR "Het helpbestand kan niet worden geopend:\n%s\nDe helpbestanden moeten in de programmamap staan."
+END
+
+LANGUAGE LANG_NORWEGIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Et klassisk bilderedigeringsprogram med utvidede tegne- og bildeverktøy."
+    IDS_ABOUT_CREDITS "Basert på ReactOS Paint (RPaint).\r\nForfattere av den opprinnelige kildekoden:\r\n%s\r\nog andre bidragsytere til ReactOS."
+    IDS_ABOUT_HELP "Brukerhåndbok"
+    IDS_HELP_FILE_ERROR "Kunne ikke åpne hjelpefilen:\n%s\nHjelpefilene må ligge i programmappen."
+END
+
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Klasyczny edytor grafiki rastrowej z rozbudowanymi narzędziami rysowania i edycji obrazów."
+    IDS_ABOUT_CREDITS "Na podstawie ReactOS Paint (RPaint).\r\nAutorzy pierwotnego kodu źródłowego:\r\n%s\r\ni inni współtwórcy ReactOS."
+    IDS_ABOUT_HELP "Podręcznik użytkownika"
+    IDS_HELP_FILE_ERROR "Nie można otworzyć pliku pomocy:\n%s\nPliki pomocy muszą znajdować się w folderze programu."
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Editor clássico de imagens com ferramentas avançadas de desenho e edição."
+    IDS_ABOUT_CREDITS "Baseado no ReactOS Paint (RPaint).\r\nAutores do código original:\r\n%s\r\ne outros colaboradores do ReactOS."
+    IDS_ABOUT_HELP "Manual do usuário"
+    IDS_HELP_FILE_ERROR "Não foi possível abrir o arquivo de ajuda:\n%s\nOs arquivos de ajuda devem estar na pasta do programa."
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Editor clássico de imagens com ferramentas avançadas de desenho e edição."
+    IDS_ABOUT_CREDITS "Baseado no ReactOS Paint (RPaint).\r\nAutores do código original:\r\n%s\r\ne outros colaboradores do ReactOS."
+    IDS_ABOUT_HELP "Manual do utilizador"
+    IDS_HELP_FILE_ERROR "Não foi possível abrir o ficheiro de ajuda:\n%s\nOs ficheiros de ajuda devem estar na pasta do programa."
+END
+
+LANGUAGE LANG_ROMANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Editor clasic de imagini raster, cu instrumente extinse pentru desenare și editare."
+    IDS_ABOUT_CREDITS "Bazat pe ReactOS Paint (RPaint).\r\nAutorii codului sursă original:\r\n%s\r\nși alți colaboratori ai proiectului ReactOS."
+    IDS_ABOUT_HELP "Ghid de utilizare"
+    IDS_HELP_FILE_ERROR "Fișierul de ajutor nu a putut fi deschis:\n%s\nFișierele de ajutor trebuie să fie în dosarul programului."
+END
+
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Классический растровый редактор с расширенными средствами рисования и обработки изображений."
+    IDS_ABOUT_CREDITS "На основе ReactOS Paint (RPaint).\r\nАвторы исходного кода:\r\n%s\r\nи другие участники проекта ReactOS."
+    IDS_ABOUT_HELP "Руководство пользователя"
+    IDS_HELP_FILE_ERROR "Не удалось открыть файл справки:\n%s\nФайлы справки должны находиться в папке с программой."
+END
+
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Klasický rastrový editor s rozšírenými nástrojmi na kreslenie a úpravy obrázkov."
+    IDS_ABOUT_CREDITS "Založené na ReactOS Paint (RPaint).\r\nAutori pôvodného zdrojového kódu:\r\n%s\r\na ďalší prispievatelia ReactOS."
+    IDS_ABOUT_HELP "Používateľská príručka"
+    IDS_HELP_FILE_ERROR "Súbor pomocníka sa nepodarilo otvoriť:\n%s\nSúbory pomocníka musia byť v priečinku programu."
+END
+
+LANGUAGE LANG_ALBANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Redaktues klasik imazhesh me mjete të zgjeruara për vizatim dhe përpunim."
+    IDS_ABOUT_CREDITS "Bazuar në ReactOS Paint (RPaint).\r\nAutorët e kodit burimor origjinal:\r\n%s\r\ndhe kontribues të tjerë të ReactOS."
+    IDS_ABOUT_HELP "Udhëzuesi i përdoruesit"
+    IDS_HELP_FILE_ERROR "Skedari i ndihmës nuk mund të hapet:\n%s\nSkedarët e ndihmës duhet të jenë në dosjen e programit."
+END
+
+LANGUAGE LANG_SWEDISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Klassisk bildredigerare med utökade verktyg för teckning och bildbehandling."
+    IDS_ABOUT_CREDITS "Baserad på ReactOS Paint (RPaint).\r\nFörfattare till den ursprungliga källkoden:\r\n%s\r\noch andra bidragsgivare till ReactOS."
+    IDS_ABOUT_HELP "Användarhandbok"
+    IDS_HELP_FILE_ERROR "Det gick inte att öppna hjälpfilen:\n%s\nHjälpfilerna måste finnas i programmappen."
+END
+
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Gelişmiş çizim ve görüntü araçları içeren klasik bir raster görüntü düzenleyicisi."
+    IDS_ABOUT_CREDITS "ReactOS Paint (RPaint) temel alınmıştır.\r\nÖzgün kaynak kodun yazarları:\r\n%s\r\nve diğer ReactOS katkıda bulunanları."
+    IDS_ABOUT_HELP "Kullanım kılavuzu"
+    IDS_HELP_FILE_ERROR "Yardım dosyası açılamadı:\n%s\nYardım dosyaları program klasöründe bulunmalıdır."
+END
+
+LANGUAGE LANG_VIETNAMESE, SUBLANG_VIETNAMESE_VIETNAM
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "Trình chỉnh sửa ảnh bitmap cổ điển với các công cụ vẽ và xử lý ảnh mở rộng."
+    IDS_ABOUT_CREDITS "Dựa trên ReactOS Paint (RPaint).\r\nTác giả của mã nguồn gốc:\r\n%s\r\nvà các cộng tác viên ReactOS khác."
+    IDS_ABOUT_HELP "Hướng dẫn sử dụng"
+    IDS_HELP_FILE_ERROR "Không thể mở tệp trợ giúp:\n%s\nCác tệp trợ giúp phải nằm trong thư mục chương trình."
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "经典位图编辑器，提供扩展的绘图和图像编辑功能。"
+    IDS_ABOUT_CREDITS "基于 ReactOS Paint (RPaint)。\r\n原始源代码作者：\r\n%s\r\n以及其他 ReactOS 贡献者。"
+    IDS_ABOUT_HELP "用户指南"
+    IDS_HELP_FILE_ERROR "无法打开帮助文件：\n%s\n请将帮助文件放在程序所在的文件夹中。"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "經典點陣圖編輯器，提供擴充的繪圖及影像編輯功能。"
+    IDS_ABOUT_CREDITS "以 ReactOS Paint (RPaint) 為基礎。\r\n原始程式碼作者：\r\n%s\r\n以及其他 ReactOS 貢獻者。"
+    IDS_ABOUT_HELP "使用者指南"
+    IDS_HELP_FILE_ERROR "無法開啟說明檔案：\n%s\n請將說明檔案放在程式所在的資料夾中。"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_DESCRIPTION "經典點陣圖編輯器，提供擴充的繪圖與影像編輯功能。"
+    IDS_ABOUT_CREDITS "以 ReactOS Paint (RPaint) 為基礎。\r\n原始程式碼作者：\r\n%s\r\n以及其他 ReactOS 貢獻者。"
+    IDS_ABOUT_HELP "使用者指南"
+    IDS_HELP_FILE_ERROR "無法開啟說明檔案：\n%s\n請將說明檔案放在程式所在的資料夾中。"
+END

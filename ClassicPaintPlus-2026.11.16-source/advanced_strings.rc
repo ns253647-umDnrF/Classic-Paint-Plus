@@ -1,0 +1,631 @@
+// UTF-8: text, brush and theme controls.
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Remembered fonts (count)"
+    IDS_ADV_BASE+1 "Theme"
+    IDS_ADV_BASE+2 "Light"
+    IDS_ADV_BASE+3 "Dark"
+    IDS_ADV_BASE+4 "Align left"
+    IDS_ADV_BASE+5 "Center"
+    IDS_ADV_BASE+6 "Align right"
+    IDS_ADV_BASE+7 "Justify"
+    IDS_ADV_BASE+8 "Size"
+    IDS_ADV_BASE+9 "Hardness"
+    IDS_ADV_BASE+10 "Transparent"
+    IDS_ADV_BASE+11 "Round"
+    IDS_ADV_BASE+12 "Square"
+    IDS_ADV_BASE+13 "Slanted left"
+    IDS_ADV_BASE+14 "Slanted right"
+    IDS_ADV_BASE+15 "Rotation: %.1f°"
+END
+
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Запомненные шрифты (шт.)"
+    IDS_ADV_BASE+1 "Тема"
+    IDS_ADV_BASE+2 "Светлая"
+    IDS_ADV_BASE+3 "Тёмная"
+    IDS_ADV_BASE+4 "По левому краю"
+    IDS_ADV_BASE+5 "По центру"
+    IDS_ADV_BASE+6 "По правому краю"
+    IDS_ADV_BASE+7 "По ширине"
+    IDS_ADV_BASE+8 "Размер"
+    IDS_ADV_BASE+9 "Жёсткость"
+    IDS_ADV_BASE+10 "Прозрачный"
+    IDS_ADV_BASE+11 "Круглая"
+    IDS_ADV_BASE+12 "Квадратная"
+    IDS_ADV_BASE+13 "Наклонная влево"
+    IDS_ADV_BASE+14 "Наклонная вправо"
+    IDS_ADV_BASE+15 "Поворот: %.1f°"
+END
+
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Zuletzt verwendete Schriften (Anzahl)"
+    IDS_ADV_BASE+1 "Design"
+    IDS_ADV_BASE+2 "Hell"
+    IDS_ADV_BASE+3 "Dunkel"
+    IDS_ADV_BASE+4 "Linksbündig"
+    IDS_ADV_BASE+5 "Zentriert"
+    IDS_ADV_BASE+6 "Rechtsbündig"
+    IDS_ADV_BASE+7 "Blocksatz"
+    IDS_ADV_BASE+8 "Größe"
+    IDS_ADV_BASE+9 "Härte"
+    IDS_ADV_BASE+10 "Transparent"
+    IDS_ADV_BASE+11 "Rund"
+    IDS_ADV_BASE+12 "Quadratisch"
+    IDS_ADV_BASE+13 "Links geneigt"
+    IDS_ADV_BASE+14 "Rechts geneigt"
+    IDS_ADV_BASE+15 "Drehung: %.1f°"
+END
+
+LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Fuentes recientes (cantidad)"
+    IDS_ADV_BASE+1 "Tema"
+    IDS_ADV_BASE+2 "Claro"
+    IDS_ADV_BASE+3 "Oscuro"
+    IDS_ADV_BASE+4 "Alinear a la izquierda"
+    IDS_ADV_BASE+5 "Centrar"
+    IDS_ADV_BASE+6 "Alinear a la derecha"
+    IDS_ADV_BASE+7 "Justificar"
+    IDS_ADV_BASE+8 "Tamaño"
+    IDS_ADV_BASE+9 "Dureza"
+    IDS_ADV_BASE+10 "Transparente"
+    IDS_ADV_BASE+11 "Redondo"
+    IDS_ADV_BASE+12 "Cuadrado"
+    IDS_ADV_BASE+13 "Inclinado a la izquierda"
+    IDS_ADV_BASE+14 "Inclinado a la derecha"
+    IDS_ADV_BASE+15 "Rotación: %.1f°"
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Tipos de letra recentes (quantidade)"
+    IDS_ADV_BASE+1 "Tema"
+    IDS_ADV_BASE+2 "Claro"
+    IDS_ADV_BASE+3 "Escuro"
+    IDS_ADV_BASE+4 "Alinhar à esquerda"
+    IDS_ADV_BASE+5 "Centrar"
+    IDS_ADV_BASE+6 "Alinhar à direita"
+    IDS_ADV_BASE+7 "Justificar"
+    IDS_ADV_BASE+8 "Tamanho"
+    IDS_ADV_BASE+9 "Dureza"
+    IDS_ADV_BASE+10 "Transparente"
+    IDS_ADV_BASE+11 "Redondo"
+    IDS_ADV_BASE+12 "Quadrado"
+    IDS_ADV_BASE+13 "Inclinado à esquerda"
+    IDS_ADV_BASE+14 "Inclinado à direita"
+    IDS_ADV_BASE+15 "Rotação: %.1f°"
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Fontes recentes (quantidade)"
+    IDS_ADV_BASE+1 "Tema"
+    IDS_ADV_BASE+2 "Claro"
+    IDS_ADV_BASE+3 "Escuro"
+    IDS_ADV_BASE+4 "Alinhar à esquerda"
+    IDS_ADV_BASE+5 "Centralizar"
+    IDS_ADV_BASE+6 "Alinhar à direita"
+    IDS_ADV_BASE+7 "Justificar"
+    IDS_ADV_BASE+8 "Tamanho"
+    IDS_ADV_BASE+9 "Dureza"
+    IDS_ADV_BASE+10 "Transparente"
+    IDS_ADV_BASE+11 "Redondo"
+    IDS_ADV_BASE+12 "Quadrado"
+    IDS_ADV_BASE+13 "Inclinado à esquerda"
+    IDS_ADV_BASE+14 "Inclinado à direita"
+    IDS_ADV_BASE+15 "Rotação: %.1f°"
+END
+
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Последни шрифтове (бр.)"
+    IDS_ADV_BASE+1 "Тема"
+    IDS_ADV_BASE+2 "Светла"
+    IDS_ADV_BASE+3 "Тъмна"
+    IDS_ADV_BASE+4 "Подравняване вляво"
+    IDS_ADV_BASE+5 "Центриране"
+    IDS_ADV_BASE+6 "Подравняване вдясно"
+    IDS_ADV_BASE+7 "Двустранно подравняване"
+    IDS_ADV_BASE+8 "Размер"
+    IDS_ADV_BASE+9 "Твърдост"
+    IDS_ADV_BASE+10 "Прозрачен"
+    IDS_ADV_BASE+11 "Кръгла"
+    IDS_ADV_BASE+12 "Квадратна"
+    IDS_ADV_BASE+13 "Наклонена наляво"
+    IDS_ADV_BASE+14 "Наклонена надясно"
+    IDS_ADV_BASE+15 "Завъртане: %.1f°"
+END
+
+LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Nedávná písma (počet)"
+    IDS_ADV_BASE+1 "Motiv"
+    IDS_ADV_BASE+2 "Světlý"
+    IDS_ADV_BASE+3 "Tmavý"
+    IDS_ADV_BASE+4 "Zarovnat vlevo"
+    IDS_ADV_BASE+5 "Na střed"
+    IDS_ADV_BASE+6 "Zarovnat vpravo"
+    IDS_ADV_BASE+7 "Do bloku"
+    IDS_ADV_BASE+8 "Velikost"
+    IDS_ADV_BASE+9 "Tvrdost"
+    IDS_ADV_BASE+10 "Průhledná"
+    IDS_ADV_BASE+11 "Kulatý"
+    IDS_ADV_BASE+12 "Čtvercový"
+    IDS_ADV_BASE+13 "Šikmý vlevo"
+    IDS_ADV_BASE+14 "Šikmý vpravo"
+    IDS_ADV_BASE+15 "Otočení: %.1f°"
+END
+
+LANGUAGE LANG_ESTONIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Hiljutised fondid (arv)"
+    IDS_ADV_BASE+1 "Kujundus"
+    IDS_ADV_BASE+2 "Hele"
+    IDS_ADV_BASE+3 "Tume"
+    IDS_ADV_BASE+4 "Joonda vasakule"
+    IDS_ADV_BASE+5 "Keskele"
+    IDS_ADV_BASE+6 "Joonda paremale"
+    IDS_ADV_BASE+7 "Rööpjoonda"
+    IDS_ADV_BASE+8 "Suurus"
+    IDS_ADV_BASE+9 "Kõvadus"
+    IDS_ADV_BASE+10 "Läbipaistev"
+    IDS_ADV_BASE+11 "Ümar"
+    IDS_ADV_BASE+12 "Ruut"
+    IDS_ADV_BASE+13 "Vasakule kaldus"
+    IDS_ADV_BASE+14 "Paremale kaldus"
+    IDS_ADV_BASE+15 "Pööramine: %.1f°"
+END
+
+LANGUAGE LANG_BASQUE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Azken letra-tipoak (kopurua)"
+    IDS_ADV_BASE+1 "Gaia"
+    IDS_ADV_BASE+2 "Argia"
+    IDS_ADV_BASE+3 "Iluna"
+    IDS_ADV_BASE+4 "Lerrokatu ezkerrean"
+    IDS_ADV_BASE+5 "Zentratu"
+    IDS_ADV_BASE+6 "Lerrokatu eskuinean"
+    IDS_ADV_BASE+7 "Justifikatu"
+    IDS_ADV_BASE+8 "Tamaina"
+    IDS_ADV_BASE+9 "Gogortasuna"
+    IDS_ADV_BASE+10 "Gardena"
+    IDS_ADV_BASE+11 "Biribila"
+    IDS_ADV_BASE+12 "Karratua"
+    IDS_ADV_BASE+13 "Ezkerrera okertua"
+    IDS_ADV_BASE+14 "Eskuinera okertua"
+    IDS_ADV_BASE+15 "Biraketa: %.1f°"
+END
+
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Polices récentes (nombre)"
+    IDS_ADV_BASE+1 "Thème"
+    IDS_ADV_BASE+2 "Clair"
+    IDS_ADV_BASE+3 "Sombre"
+    IDS_ADV_BASE+4 "Aligner à gauche"
+    IDS_ADV_BASE+5 "Centrer"
+    IDS_ADV_BASE+6 "Aligner à droite"
+    IDS_ADV_BASE+7 "Justifier"
+    IDS_ADV_BASE+8 "Taille"
+    IDS_ADV_BASE+9 "Dureté"
+    IDS_ADV_BASE+10 "Transparent"
+    IDS_ADV_BASE+11 "Rond"
+    IDS_ADV_BASE+12 "Carré"
+    IDS_ADV_BASE+13 "Incliné à gauche"
+    IDS_ADV_BASE+14 "Incliné à droite"
+    IDS_ADV_BASE+15 "Rotation : %.1f°"
+END
+
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "גופנים אחרונים (כמות)"
+    IDS_ADV_BASE+1 "ערכת נושא"
+    IDS_ADV_BASE+2 "בהירה"
+    IDS_ADV_BASE+3 "כהה"
+    IDS_ADV_BASE+4 "יישור לשמאל"
+    IDS_ADV_BASE+5 "מרכוז"
+    IDS_ADV_BASE+6 "יישור לימין"
+    IDS_ADV_BASE+7 "יישור לשני הצדדים"
+    IDS_ADV_BASE+8 "גודל"
+    IDS_ADV_BASE+9 "קשיות"
+    IDS_ADV_BASE+10 "שקוף"
+    IDS_ADV_BASE+11 "עגול"
+    IDS_ADV_BASE+12 "מרובע"
+    IDS_ADV_BASE+13 "נטוי לשמאל"
+    IDS_ADV_BASE+14 "נטוי לימין"
+    IDS_ADV_BASE+15 "סיבוב: %.1f°"
+END
+
+LANGUAGE LANG_CROATIAN, SUBLANG_CROATIAN_CROATIA
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Nedavni fontovi (broj)"
+    IDS_ADV_BASE+1 "Tema"
+    IDS_ADV_BASE+2 "Svijetla"
+    IDS_ADV_BASE+3 "Tamna"
+    IDS_ADV_BASE+4 "Poravnaj lijevo"
+    IDS_ADV_BASE+5 "Centriraj"
+    IDS_ADV_BASE+6 "Poravnaj desno"
+    IDS_ADV_BASE+7 "Obostrano poravnaj"
+    IDS_ADV_BASE+8 "Veličina"
+    IDS_ADV_BASE+9 "Tvrdoća"
+    IDS_ADV_BASE+10 "Prozirno"
+    IDS_ADV_BASE+11 "Okrugli"
+    IDS_ADV_BASE+12 "Kvadratni"
+    IDS_ADV_BASE+13 "Nagnut ulijevo"
+    IDS_ADV_BASE+14 "Nagnut udesno"
+    IDS_ADV_BASE+15 "Zakretanje: %.1f°"
+END
+
+LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Legutóbbi betűtípusok (db)"
+    IDS_ADV_BASE+1 "Téma"
+    IDS_ADV_BASE+2 "Világos"
+    IDS_ADV_BASE+3 "Sötét"
+    IDS_ADV_BASE+4 "Balra igazítás"
+    IDS_ADV_BASE+5 "Középre igazítás"
+    IDS_ADV_BASE+6 "Jobbra igazítás"
+    IDS_ADV_BASE+7 "Sorkizárás"
+    IDS_ADV_BASE+8 "Méret"
+    IDS_ADV_BASE+9 "Keménység"
+    IDS_ADV_BASE+10 "Átlátszó"
+    IDS_ADV_BASE+11 "Kerek"
+    IDS_ADV_BASE+12 "Négyzetes"
+    IDS_ADV_BASE+13 "Balra döntött"
+    IDS_ADV_BASE+14 "Jobbra döntött"
+    IDS_ADV_BASE+15 "Forgatás: %.1f°"
+END
+
+LANGUAGE LANG_INDONESIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Font terakhir (jumlah)"
+    IDS_ADV_BASE+1 "Tema"
+    IDS_ADV_BASE+2 "Terang"
+    IDS_ADV_BASE+3 "Gelap"
+    IDS_ADV_BASE+4 "Rata kiri"
+    IDS_ADV_BASE+5 "Tengah"
+    IDS_ADV_BASE+6 "Rata kanan"
+    IDS_ADV_BASE+7 "Rata kiri-kanan"
+    IDS_ADV_BASE+8 "Ukuran"
+    IDS_ADV_BASE+9 "Kekerasan"
+    IDS_ADV_BASE+10 "Transparan"
+    IDS_ADV_BASE+11 "Bulat"
+    IDS_ADV_BASE+12 "Persegi"
+    IDS_ADV_BASE+13 "Miring kiri"
+    IDS_ADV_BASE+14 "Miring kanan"
+    IDS_ADV_BASE+15 "Rotasi: %.1f°"
+END
+
+LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Caratteri recenti (numero)"
+    IDS_ADV_BASE+1 "Tema"
+    IDS_ADV_BASE+2 "Chiaro"
+    IDS_ADV_BASE+3 "Scuro"
+    IDS_ADV_BASE+4 "Allinea a sinistra"
+    IDS_ADV_BASE+5 "Centra"
+    IDS_ADV_BASE+6 "Allinea a destra"
+    IDS_ADV_BASE+7 "Giustifica"
+    IDS_ADV_BASE+8 "Dimensione"
+    IDS_ADV_BASE+9 "Durezza"
+    IDS_ADV_BASE+10 "Trasparente"
+    IDS_ADV_BASE+11 "Rotondo"
+    IDS_ADV_BASE+12 "Quadrato"
+    IDS_ADV_BASE+13 "Inclinato a sinistra"
+    IDS_ADV_BASE+14 "Inclinato a destra"
+    IDS_ADV_BASE+15 "Rotazione: %.1f°"
+END
+
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "最近使ったフォント (個)"
+    IDS_ADV_BASE+1 "テーマ"
+    IDS_ADV_BASE+2 "ライト"
+    IDS_ADV_BASE+3 "ダーク"
+    IDS_ADV_BASE+4 "左揃え"
+    IDS_ADV_BASE+5 "中央揃え"
+    IDS_ADV_BASE+6 "右揃え"
+    IDS_ADV_BASE+7 "両端揃え"
+    IDS_ADV_BASE+8 "サイズ"
+    IDS_ADV_BASE+9 "硬さ"
+    IDS_ADV_BASE+10 "透明"
+    IDS_ADV_BASE+11 "丸型"
+    IDS_ADV_BASE+12 "四角形"
+    IDS_ADV_BASE+13 "左斜め"
+    IDS_ADV_BASE+14 "右斜め"
+    IDS_ADV_BASE+15 "回転: %.1f°"
+END
+
+LANGUAGE LANG_DUTCH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Recente lettertypen (aantal)"
+    IDS_ADV_BASE+1 "Thema"
+    IDS_ADV_BASE+2 "Licht"
+    IDS_ADV_BASE+3 "Donker"
+    IDS_ADV_BASE+4 "Links uitlijnen"
+    IDS_ADV_BASE+5 "Centreren"
+    IDS_ADV_BASE+6 "Rechts uitlijnen"
+    IDS_ADV_BASE+7 "Uitvullen"
+    IDS_ADV_BASE+8 "Grootte"
+    IDS_ADV_BASE+9 "Hardheid"
+    IDS_ADV_BASE+10 "Transparant"
+    IDS_ADV_BASE+11 "Rond"
+    IDS_ADV_BASE+12 "Vierkant"
+    IDS_ADV_BASE+13 "Schuin links"
+    IDS_ADV_BASE+14 "Schuin rechts"
+    IDS_ADV_BASE+15 "Rotatie: %.1f°"
+END
+
+LANGUAGE LANG_NORWEGIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Nylig brukte skrifter (antall)"
+    IDS_ADV_BASE+1 "Tema"
+    IDS_ADV_BASE+2 "Lyst"
+    IDS_ADV_BASE+3 "Mørkt"
+    IDS_ADV_BASE+4 "Venstrejuster"
+    IDS_ADV_BASE+5 "Midtstill"
+    IDS_ADV_BASE+6 "Høyrejuster"
+    IDS_ADV_BASE+7 "Blokkjuster"
+    IDS_ADV_BASE+8 "Størrelse"
+    IDS_ADV_BASE+9 "Hardhet"
+    IDS_ADV_BASE+10 "Gjennomsiktig"
+    IDS_ADV_BASE+11 "Rund"
+    IDS_ADV_BASE+12 "Firkantet"
+    IDS_ADV_BASE+13 "Skrå venstre"
+    IDS_ADV_BASE+14 "Skrå høyre"
+    IDS_ADV_BASE+15 "Rotasjon: %.1f°"
+END
+
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Ostatnie czcionki (liczba)"
+    IDS_ADV_BASE+1 "Motyw"
+    IDS_ADV_BASE+2 "Jasny"
+    IDS_ADV_BASE+3 "Ciemny"
+    IDS_ADV_BASE+4 "Wyrównaj do lewej"
+    IDS_ADV_BASE+5 "Wyśrodkuj"
+    IDS_ADV_BASE+6 "Wyrównaj do prawej"
+    IDS_ADV_BASE+7 "Wyjustuj"
+    IDS_ADV_BASE+8 "Rozmiar"
+    IDS_ADV_BASE+9 "Twardość"
+    IDS_ADV_BASE+10 "Przezroczysty"
+    IDS_ADV_BASE+11 "Okrągły"
+    IDS_ADV_BASE+12 "Kwadratowy"
+    IDS_ADV_BASE+13 "Pochylony w lewo"
+    IDS_ADV_BASE+14 "Pochylony w prawo"
+    IDS_ADV_BASE+15 "Obrót: %.1f°"
+END
+
+LANGUAGE LANG_ROMANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Fonturi recente (număr)"
+    IDS_ADV_BASE+1 "Temă"
+    IDS_ADV_BASE+2 "Luminoasă"
+    IDS_ADV_BASE+3 "Întunecată"
+    IDS_ADV_BASE+4 "Aliniază la stânga"
+    IDS_ADV_BASE+5 "Centrează"
+    IDS_ADV_BASE+6 "Aliniază la dreapta"
+    IDS_ADV_BASE+7 "Aliniază stânga-dreapta"
+    IDS_ADV_BASE+8 "Dimensiune"
+    IDS_ADV_BASE+9 "Duritate"
+    IDS_ADV_BASE+10 "Transparent"
+    IDS_ADV_BASE+11 "Rotundă"
+    IDS_ADV_BASE+12 "Pătrată"
+    IDS_ADV_BASE+13 "Înclinată la stânga"
+    IDS_ADV_BASE+14 "Înclinată la dreapta"
+    IDS_ADV_BASE+15 "Rotire: %.1f°"
+END
+
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Nedávne písma (počet)"
+    IDS_ADV_BASE+1 "Motív"
+    IDS_ADV_BASE+2 "Svetlý"
+    IDS_ADV_BASE+3 "Tmavý"
+    IDS_ADV_BASE+4 "Zarovnať doľava"
+    IDS_ADV_BASE+5 "Na stred"
+    IDS_ADV_BASE+6 "Zarovnať doprava"
+    IDS_ADV_BASE+7 "Do bloku"
+    IDS_ADV_BASE+8 "Veľkosť"
+    IDS_ADV_BASE+9 "Tvrdosť"
+    IDS_ADV_BASE+10 "Priehľadná"
+    IDS_ADV_BASE+11 "Okrúhly"
+    IDS_ADV_BASE+12 "Štvorcový"
+    IDS_ADV_BASE+13 "Šikmý vľavo"
+    IDS_ADV_BASE+14 "Šikmý vpravo"
+    IDS_ADV_BASE+15 "Otočenie: %.1f°"
+END
+
+LANGUAGE LANG_ALBANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Shkronjat e fundit (numri)"
+    IDS_ADV_BASE+1 "Tema"
+    IDS_ADV_BASE+2 "E çelët"
+    IDS_ADV_BASE+3 "E errët"
+    IDS_ADV_BASE+4 "Rreshto majtas"
+    IDS_ADV_BASE+5 "Në qendër"
+    IDS_ADV_BASE+6 "Rreshto djathtas"
+    IDS_ADV_BASE+7 "Rreshto në të dy anët"
+    IDS_ADV_BASE+8 "Madhësia"
+    IDS_ADV_BASE+9 "Fortësia"
+    IDS_ADV_BASE+10 "Transparent"
+    IDS_ADV_BASE+11 "Rrethore"
+    IDS_ADV_BASE+12 "Katrore"
+    IDS_ADV_BASE+13 "E pjerrët majtas"
+    IDS_ADV_BASE+14 "E pjerrët djathtas"
+    IDS_ADV_BASE+15 "Rrotullimi: %.1f°"
+END
+
+LANGUAGE LANG_SWEDISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Senaste teckensnitt (antal)"
+    IDS_ADV_BASE+1 "Tema"
+    IDS_ADV_BASE+2 "Ljust"
+    IDS_ADV_BASE+3 "Mörkt"
+    IDS_ADV_BASE+4 "Vänsterjustera"
+    IDS_ADV_BASE+5 "Centrera"
+    IDS_ADV_BASE+6 "Högerjustera"
+    IDS_ADV_BASE+7 "Marginaljustera"
+    IDS_ADV_BASE+8 "Storlek"
+    IDS_ADV_BASE+9 "Hårdhet"
+    IDS_ADV_BASE+10 "Genomskinlig"
+    IDS_ADV_BASE+11 "Rund"
+    IDS_ADV_BASE+12 "Fyrkantig"
+    IDS_ADV_BASE+13 "Vänsterlutande"
+    IDS_ADV_BASE+14 "Högerlutande"
+    IDS_ADV_BASE+15 "Rotation: %.1f°"
+END
+
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Son kullanılan yazı tipleri (adet)"
+    IDS_ADV_BASE+1 "Tema"
+    IDS_ADV_BASE+2 "Açık"
+    IDS_ADV_BASE+3 "Koyu"
+    IDS_ADV_BASE+4 "Sola hizala"
+    IDS_ADV_BASE+5 "Ortala"
+    IDS_ADV_BASE+6 "Sağa hizala"
+    IDS_ADV_BASE+7 "İki yana yasla"
+    IDS_ADV_BASE+8 "Boyut"
+    IDS_ADV_BASE+9 "Sertlik"
+    IDS_ADV_BASE+10 "Saydam"
+    IDS_ADV_BASE+11 "Yuvarlak"
+    IDS_ADV_BASE+12 "Kare"
+    IDS_ADV_BASE+13 "Sola eğik"
+    IDS_ADV_BASE+14 "Sağa eğik"
+    IDS_ADV_BASE+15 "Döndürme: %.1f°"
+END
+
+LANGUAGE LANG_VIETNAMESE, SUBLANG_VIETNAMESE_VIETNAM
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Phông chữ gần đây (số lượng)"
+    IDS_ADV_BASE+1 "Giao diện"
+    IDS_ADV_BASE+2 "Sáng"
+    IDS_ADV_BASE+3 "Tối"
+    IDS_ADV_BASE+4 "Căn trái"
+    IDS_ADV_BASE+5 "Căn giữa"
+    IDS_ADV_BASE+6 "Căn phải"
+    IDS_ADV_BASE+7 "Căn đều"
+    IDS_ADV_BASE+8 "Kích thước"
+    IDS_ADV_BASE+9 "Độ cứng"
+    IDS_ADV_BASE+10 "Trong suốt"
+    IDS_ADV_BASE+11 "Tròn"
+    IDS_ADV_BASE+12 "Vuông"
+    IDS_ADV_BASE+13 "Nghiêng trái"
+    IDS_ADV_BASE+14 "Nghiêng phải"
+    IDS_ADV_BASE+15 "Xoay: %.1f°"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "最近使用的字体 (数量)"
+    IDS_ADV_BASE+1 "主题"
+    IDS_ADV_BASE+2 "浅色"
+    IDS_ADV_BASE+3 "深色"
+    IDS_ADV_BASE+4 "左对齐"
+    IDS_ADV_BASE+5 "居中"
+    IDS_ADV_BASE+6 "右对齐"
+    IDS_ADV_BASE+7 "两端对齐"
+    IDS_ADV_BASE+8 "大小"
+    IDS_ADV_BASE+9 "硬度"
+    IDS_ADV_BASE+10 "透明"
+    IDS_ADV_BASE+11 "圆形"
+    IDS_ADV_BASE+12 "方形"
+    IDS_ADV_BASE+13 "左斜"
+    IDS_ADV_BASE+14 "右斜"
+    IDS_ADV_BASE+15 "旋转：%.1f°"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "最近使用的字型 (數量)"
+    IDS_ADV_BASE+1 "主題"
+    IDS_ADV_BASE+2 "淺色"
+    IDS_ADV_BASE+3 "深色"
+    IDS_ADV_BASE+4 "靠左對齊"
+    IDS_ADV_BASE+5 "置中"
+    IDS_ADV_BASE+6 "靠右對齊"
+    IDS_ADV_BASE+7 "左右對齊"
+    IDS_ADV_BASE+8 "大小"
+    IDS_ADV_BASE+9 "硬度"
+    IDS_ADV_BASE+10 "透明"
+    IDS_ADV_BASE+11 "圓形"
+    IDS_ADV_BASE+12 "方形"
+    IDS_ADV_BASE+13 "左斜"
+    IDS_ADV_BASE+14 "右斜"
+    IDS_ADV_BASE+15 "旋轉：%.1f°"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "最近使用的字型 (數量)"
+    IDS_ADV_BASE+1 "主題"
+    IDS_ADV_BASE+2 "淺色"
+    IDS_ADV_BASE+3 "深色"
+    IDS_ADV_BASE+4 "靠左對齊"
+    IDS_ADV_BASE+5 "置中"
+    IDS_ADV_BASE+6 "靠右對齊"
+    IDS_ADV_BASE+7 "左右對齊"
+    IDS_ADV_BASE+8 "大小"
+    IDS_ADV_BASE+9 "硬度"
+    IDS_ADV_BASE+10 "透明"
+    IDS_ADV_BASE+11 "圓形"
+    IDS_ADV_BASE+12 "方形"
+    IDS_ADV_BASE+13 "左斜"
+    IDS_ADV_BASE+14 "右斜"
+    IDS_ADV_BASE+15 "旋轉：%.1f°"
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+STRINGTABLE
+BEGIN
+    IDS_ADV_BASE+0 "Remembered fonts (count)"
+    IDS_ADV_BASE+1 "Theme"
+    IDS_ADV_BASE+2 "Light"
+    IDS_ADV_BASE+3 "Dark"
+    IDS_ADV_BASE+4 "Align left"
+    IDS_ADV_BASE+5 "Center"
+    IDS_ADV_BASE+6 "Align right"
+    IDS_ADV_BASE+7 "Justify"
+    IDS_ADV_BASE+8 "Size"
+    IDS_ADV_BASE+9 "Hardness"
+    IDS_ADV_BASE+10 "Transparent"
+    IDS_ADV_BASE+11 "Round"
+    IDS_ADV_BASE+12 "Square"
+    IDS_ADV_BASE+13 "Slanted left"
+    IDS_ADV_BASE+14 "Slanted right"
+    IDS_ADV_BASE+15 "Rotation: %.1f°"
+END
+

@@ -1,0 +1,241 @@
+#include "liveui.h"
+#pragma code_page(65001)
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Ъгъл на завъртане на селекцията (°)"
+ IDS_FONTS_TITLE "Шрифтове"
+ IDS_ABOUT_PLUS "Разработка на Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Úhel otočení výběru (°)"
+ IDS_FONTS_TITLE "Písma"
+ IDS_ABOUT_PLUS "Vývoj Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Drehwinkel der Auswahl (°)"
+ IDS_FONTS_TITLE "Schriftarten"
+ IDS_ABOUT_PLUS "Entwicklung von Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Selection rotation angle (°)"
+ IDS_FONTS_TITLE "Fonts"
+ IDS_ABOUT_PLUS "Classic Paint Plus development: Nicolay S."
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Selection rotation angle (°)"
+ IDS_FONTS_TITLE "Fonts"
+ IDS_ABOUT_PLUS "Classic Paint Plus development: Nicolay S."
+END
+
+LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Ángulo de rotación de la selección (°)"
+ IDS_FONTS_TITLE "Tipografías"
+ IDS_ABOUT_PLUS "Desarrollo de Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_ESTONIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Valiku pöördenurk (°)"
+ IDS_FONTS_TITLE "Fondid"
+ IDS_ABOUT_PLUS "Classic Paint Plusi arendus: Nicolay S."
+END
+
+LANGUAGE LANG_BASQUE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Hautapenaren biraketa-angelua (°)"
+ IDS_FONTS_TITLE "Letra-tipoak"
+ IDS_ABOUT_PLUS "Classic Paint Plus-en garapena: Nicolay S."
+END
+
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Angle de rotation de la sélection (°)"
+ IDS_FONTS_TITLE "Polices"
+ IDS_ABOUT_PLUS "Développement de Classic Paint Plus : Nicolay S."
+END
+
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "זווית סיבוב הבחירה (°)"
+ IDS_FONTS_TITLE "גופנים"
+ IDS_ABOUT_PLUS "פיתוח Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_CROATIAN, SUBLANG_CROATIAN_CROATIA
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Kut zakretanja odabira (°)"
+ IDS_FONTS_TITLE "Fontovi"
+ IDS_ABOUT_PLUS "Razvoj programa Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "A kijelölés forgatási szöge (°)"
+ IDS_FONTS_TITLE "Betűtípusok"
+ IDS_ABOUT_PLUS "A Classic Paint Plus fejlesztése: Nicolay S."
+END
+
+LANGUAGE LANG_INDONESIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Sudut rotasi pilihan (°)"
+ IDS_FONTS_TITLE "Fonta"
+ IDS_ABOUT_PLUS "Pengembangan Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Angolo di rotazione della selezione (°)"
+ IDS_FONTS_TITLE "Caratteri"
+ IDS_ABOUT_PLUS "Sviluppo di Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "選択範囲の回転角度 (°)"
+ IDS_FONTS_TITLE "フォント"
+ IDS_ABOUT_PLUS "Classic Paint Plus の開発: Nicolay S."
+END
+
+LANGUAGE LANG_DUTCH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Draaihoek van de selectie (°)"
+ IDS_FONTS_TITLE "Lettertypen"
+ IDS_ABOUT_PLUS "Ontwikkeling van Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_NORWEGIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Rotasjonsvinkel for utvalget (°)"
+ IDS_FONTS_TITLE "Skrifter"
+ IDS_ABOUT_PLUS "Utvikling av Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Kąt obrotu zaznaczenia (°)"
+ IDS_FONTS_TITLE "Czcionki"
+ IDS_ABOUT_PLUS "Rozwój Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Ângulo de rotação da seleção (°)"
+ IDS_FONTS_TITLE "Fontes"
+ IDS_ABOUT_PLUS "Desenvolvimento do Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Ângulo de rotação da seleção (°)"
+ IDS_FONTS_TITLE "Tipos de letra"
+ IDS_ABOUT_PLUS "Desenvolvimento do Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_ROMANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Unghiul de rotire a selecției (°)"
+ IDS_FONTS_TITLE "Fonturi"
+ IDS_ABOUT_PLUS "Dezvoltarea Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Угол поворота выделения (°)"
+ IDS_FONTS_TITLE "Шрифты"
+ IDS_ABOUT_PLUS "Разработка Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Uhol otočenia výberu (°)"
+ IDS_FONTS_TITLE "Písma"
+ IDS_ABOUT_PLUS "Vývoj Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_ALBANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Këndi i rrotullimit të përzgjedhjes (°)"
+ IDS_FONTS_TITLE "Shkronjat"
+ IDS_ABOUT_PLUS "Zhvillimi i Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_SWEDISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Markeringens rotationsvinkel (°)"
+ IDS_FONTS_TITLE "Teckensnitt"
+ IDS_ABOUT_PLUS "Utveckling av Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Seçimin döndürme açısı (°)"
+ IDS_FONTS_TITLE "Yazı tipleri"
+ IDS_ABOUT_PLUS "Classic Paint Plus geliştirme: Nicolay S."
+END
+
+LANGUAGE LANG_VIETNAMESE, SUBLANG_VIETNAMESE_VIETNAM
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "Góc xoay vùng chọn (°)"
+ IDS_FONTS_TITLE "Phông chữ"
+ IDS_ABOUT_PLUS "Phát triển Classic Paint Plus: Nicolay S."
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "选区旋转角度 (°)"
+ IDS_FONTS_TITLE "字体"
+ IDS_ABOUT_PLUS "Classic Paint Plus 开发：Nicolay S."
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "選取範圍旋轉角度 (°)"
+ IDS_FONTS_TITLE "字型"
+ IDS_ABOUT_PLUS "Classic Paint Plus 開發：Nicolay S."
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+STRINGTABLE
+BEGIN
+ IDS_SELECTION_ANGLE "選取範圍旋轉角度 (°)"
+ IDS_FONTS_TITLE "字型"
+ IDS_ABOUT_PLUS "Classic Paint Plus 開發：Nicolay S."
+END

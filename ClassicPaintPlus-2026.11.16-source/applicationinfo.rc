@@ -1,0 +1,47 @@
+#include "applicationinfo.h"
+#include "version.h"
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+IDR_ABOUT_BANNER RCDATA "img/nicolay-banner.png"
+IDD_RPAINT_ABOUT DIALOGEX 0,0,330,311
+STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Classic Paint Plus"
+FONT 8,"MS Shell Dlg"
+BEGIN
+    ICON IDI_APPICON,-1,14,14,24,24
+    LTEXT "Classic Paint Plus",IDC_ABOUT_NAME,48,12,268,22
+    LTEXT "",IDC_ABOUT_BUILD,48,36,268,12
+    LTEXT "",IDC_ABOUT_DESCRIPTION,14,57,302,30
+    EDITTEXT IDC_ABOUT_CREDITS,14,92,302,90,ES_MULTILINE | ES_READONLY | ES_AUTOVSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT "",IDC_ABOUT_LICENSE,14,190,302,28
+    PUSHBUTTON "",IDC_ABOUT_HELP,14,226,145,16
+    DEFPUSHBUTTON "OK",IDOK,246,226,70,16
+    CONTROL "",IDC_ABOUT_BANNER,"Static",SS_OWNERDRAW,0,252,330,59
+END
+
+1 VERSIONINFO
+FILEVERSION CLASSIC_PAINT_PLUS_VERSION
+PRODUCTVERSION CLASSIC_PAINT_PLUS_VERSION
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0
+FILEOS 0x40004L
+FILETYPE 1
+FILESUBTYPE 0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Classic Paint Plus\0"
+            VALUE "FileVersion", CLASSIC_PAINT_PLUS_VERSION_TEXT "\0"
+            VALUE "InternalName", "Classic Paint Plus\0"
+            VALUE "OriginalFilename", "ClassicPaintPlus.exe\0"
+            VALUE "ProductName", "Classic Paint Plus\0"
+            VALUE "ProductVersion", CLASSIC_PAINT_PLUS_VERSION_TEXT "\0"
+            VALUE "LegalCopyright", "Based on ReactOS Paint / RPaint. LGPL-2.0-or-later.\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
