@@ -1,0 +1,34 @@
+{
+  "source": "kjj.png",
+  "sha256": "460715847e0ac0471ea2ebe9a70d70e0610cadb1e490a662e472ae0e42fccca6",
+  "icons": [
+    {
+      "file": "classic-opaque.ico",
+      "crop": [
+        9,
+        12,
+        44,
+        35
+      ],
+      "external_ui_background": [
+        0,
+        120,
+        215
+      ]
+    },
+    {
+      "file": "classic-transparent.ico",
+      "crop": [
+        9,
+        44,
+        44,
+        67
+      ],
+      "external_ui_background": [
+        240,
+        240,
+        240
+      ]
+    }
+  ]
+}

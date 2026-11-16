@@ -1,0 +1,22 @@
+{
+  "sha256": "2451dfad2ee714a8d7655944d9b8e9fd7423c7b10ae02bc2f2cde125a42aeeaf",
+  "size": [
+    1038,
+    1515
+  ],
+  "crops": {
+    "transparent": [
+      119,
+      105,
+      910,
+      637
+    ],
+    "opaque": [
+      119,
+      862,
+      910,
+      1394
+    ]
+  },
+  "processing": "Rectangular crops; only connected exterior grey sheet background has zero alpha. Original RGB and artwork remain unchanged, including the white opaque-selection field. Scaled proportionally and composited over the current option background at display time."
+}

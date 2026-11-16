@@ -1,0 +1,5 @@
+{
+  "source": "stre2.png",
+  "sha256": "74fddc56bbc7d5e5468a96bb2177d1220717a2d51d5638b6d690dd43a2904988",
+  "processing": "Only proportional Lanczos resizing of the complete original image; no cropping, recolouring or background removal."
+}
