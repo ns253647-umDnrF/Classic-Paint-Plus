@@ -1,0 +1,28 @@
+// Standalone build metadata; original application resources remain unchanged.
+#include <winver.h>
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,0,0
+ PRODUCTVERSION 0,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "040904B0"
+  BEGIN
+   VALUE "FileDescription", "ReactOS Paint - standalone Windows build\0"
+   VALUE "FileVersion", "447673979ce8\0"
+   VALUE "InternalName", "mspaint\0"
+   VALUE "OriginalFilename", "mspaint.exe\0"
+   VALUE "ProductName", "ReactOS Paint\0"
+   VALUE "ProductVersion", "447673979ce8\0"
+   VALUE "LegalCopyright", "ReactOS contributors; LGPL-2.0-or-later\0"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x409, 1200
+ END
+END
