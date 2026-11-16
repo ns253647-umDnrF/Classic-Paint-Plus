@@ -1,0 +1,360 @@
+﻿// UTF-8; included after code_page(65001) in rsrc.rc.
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Settings"
+    IDS_PALETTE_MENU "&Palette"
+    IDS_TOOLS_MENU "&Tools"
+    IDS_RETURN_AFTER_PICK "Return after picking a color"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Same as Windows"
+    IDS_LANGUAGE_RESTART "The selected language will be used the next time you start Paint."
+END
+
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Настройки"
+    IDS_PALETTE_MENU "&Палитра"
+    IDS_TOOLS_MENU "&Инструменты"
+    IDS_RETURN_AFTER_PICK "Возврат после выбора цвета"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Как в Windows"
+    IDS_LANGUAGE_RESTART "Выбранный язык будет применён при следующем запуске Paint."
+END
+
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Einstellungen"
+    IDS_PALETTE_MENU "&Palette"
+    IDS_TOOLS_MENU "&Werkzeuge"
+    IDS_RETURN_AFTER_PICK "Nach der Farbauswahl zum vorherigen Werkzeug zurückkehren"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Wie in Windows"
+    IDS_LANGUAGE_RESTART "Die gewählte Sprache wird beim nächsten Start von Paint verwendet."
+END
+
+LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Configuración"
+    IDS_PALETTE_MENU "&Paleta"
+    IDS_TOOLS_MENU "&Herramientas"
+    IDS_RETURN_AFTER_PICK "Volver a la herramienta anterior después de elegir un color"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Como en Windows"
+    IDS_LANGUAGE_RESTART "El idioma seleccionado se aplicará la próxima vez que inicie Paint."
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Definições"
+    IDS_PALETTE_MENU "&Paleta"
+    IDS_TOOLS_MENU "&Ferramentas"
+    IDS_RETURN_AFTER_PICK "Voltar à ferramenta anterior após escolher uma cor"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Igual ao Windows"
+    IDS_LANGUAGE_RESTART "O idioma selecionado será aplicado na próxima vez que iniciar o Paint."
+END
+
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Configurações"
+    IDS_PALETTE_MENU "&Paleta"
+    IDS_TOOLS_MENU "&Ferramentas"
+    IDS_RETURN_AFTER_PICK "Voltar à ferramenta anterior após escolher uma cor"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Igual ao Windows"
+    IDS_LANGUAGE_RESTART "O idioma selecionado será aplicado na próxima vez que iniciar o Paint."
+END
+
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Настройки"
+    IDS_PALETTE_MENU "&Палитра"
+    IDS_TOOLS_MENU "&Инструменти"
+    IDS_RETURN_AFTER_PICK "Връщане към предишния инструмент след избор на цвят"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Като в Windows"
+    IDS_LANGUAGE_RESTART "Избраният език ще се приложи при следващото стартиране на Paint."
+END
+
+LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Nastavení"
+    IDS_PALETTE_MENU "&Paleta"
+    IDS_TOOLS_MENU "&Nástroje"
+    IDS_RETURN_AFTER_PICK "Po výběru barvy se vrátit k předchozímu nástroji"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Podle Windows"
+    IDS_LANGUAGE_RESTART "Vybraný jazyk se použije při příštím spuštění programu Paint."
+END
+
+LANGUAGE LANG_ESTONIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Seaded"
+    IDS_PALETTE_MENU "&Palett"
+    IDS_TOOLS_MENU "&Tööriistad"
+    IDS_RETURN_AFTER_PICK "Pärast värvi valimist naase eelmise tööriista juurde"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Nagu Windowsis"
+    IDS_LANGUAGE_RESTART "Valitud keel rakendub Painti järgmisel käivitamisel."
+END
+
+LANGUAGE LANG_BASQUE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Ezarpenak"
+    IDS_PALETTE_MENU "&Paleta"
+    IDS_TOOLS_MENU "&Tresnak"
+    IDS_RETURN_AFTER_PICK "Kolorea hautatu ondoren aurreko tresnara itzuli"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Windowsen bezala"
+    IDS_LANGUAGE_RESTART "Hautatutako hizkuntza Paint berriz abiaraztean aplikatuko da."
+END
+
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Paramètres"
+    IDS_PALETTE_MENU "&Palette"
+    IDS_TOOLS_MENU "&Outils"
+    IDS_RETURN_AFTER_PICK "Revenir à l’outil précédent après avoir choisi une couleur"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Comme dans Windows"
+    IDS_LANGUAGE_RESTART "La langue sélectionnée sera utilisée au prochain démarrage de Paint."
+END
+
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&הגדרות"
+    IDS_PALETTE_MENU "&לוח צבעים"
+    IDS_TOOLS_MENU "&כלים"
+    IDS_RETURN_AFTER_PICK "חזרה לכלי הקודם לאחר בחירת צבע"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "כמו ב־Windows"
+    IDS_LANGUAGE_RESTART "השפה שנבחרה תחול בהפעלה הבאה של Paint."
+END
+
+LANGUAGE LANG_CROATIAN, SUBLANG_CROATIAN_CROATIA
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Postavke"
+    IDS_PALETTE_MENU "&Paleta"
+    IDS_TOOLS_MENU "&Alati"
+    IDS_RETURN_AFTER_PICK "Povratak na prethodni alat nakon odabira boje"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Kao u sustavu Windows"
+    IDS_LANGUAGE_RESTART "Odabrani jezik primijenit će se pri sljedećem pokretanju programa Paint."
+END
+
+LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Beállítások"
+    IDS_PALETTE_MENU "&Paletta"
+    IDS_TOOLS_MENU "&Eszközök"
+    IDS_RETURN_AFTER_PICK "Visszatérés az előző eszközhöz a szín kiválasztása után"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "A Windows nyelve"
+    IDS_LANGUAGE_RESTART "A kiválasztott nyelv a Paint következő indításakor lép érvénybe."
+END
+
+LANGUAGE LANG_INDONESIAN, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Pengaturan"
+    IDS_PALETTE_MENU "&Palet"
+    IDS_TOOLS_MENU "&Alat"
+    IDS_RETURN_AFTER_PICK "Kembali ke alat sebelumnya setelah memilih warna"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Sama seperti Windows"
+    IDS_LANGUAGE_RESTART "Bahasa yang dipilih akan digunakan saat Paint dijalankan kembali."
+END
+
+LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Impostazioni"
+    IDS_PALETTE_MENU "&Tavolozza"
+    IDS_TOOLS_MENU "&Strumenti"
+    IDS_RETURN_AFTER_PICK "Torna allo strumento precedente dopo aver scelto un colore"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Come in Windows"
+    IDS_LANGUAGE_RESTART "La lingua selezionata verrà applicata al prossimo avvio di Paint."
+END
+
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&設定"
+    IDS_PALETTE_MENU "&パレット"
+    IDS_TOOLS_MENU "&ツール"
+    IDS_RETURN_AFTER_PICK "色の選択後に前のツールに戻る"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Windows と同じ"
+    IDS_LANGUAGE_RESTART "選択した言語は、次回 Paint を起動したときに適用されます。"
+END
+
+LANGUAGE LANG_DUTCH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Instellingen"
+    IDS_PALETTE_MENU "&Palet"
+    IDS_TOOLS_MENU "&Gereedschappen"
+    IDS_RETURN_AFTER_PICK "Na kleurkeuze terugkeren naar het vorige gereedschap"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Zoals in Windows"
+    IDS_LANGUAGE_RESTART "De gekozen taal wordt gebruikt wanneer u Paint opnieuw start."
+END
+
+LANGUAGE LANG_NORWEGIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Innstillinger"
+    IDS_PALETTE_MENU "&Palett"
+    IDS_TOOLS_MENU "&Verktøy"
+    IDS_RETURN_AFTER_PICK "Gå tilbake til forrige verktøy etter fargevalg"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Som i Windows"
+    IDS_LANGUAGE_RESTART "Det valgte språket brukes neste gang du starter Paint."
+END
+
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Ustawienia"
+    IDS_PALETTE_MENU "&Paleta"
+    IDS_TOOLS_MENU "&Narzędzia"
+    IDS_RETURN_AFTER_PICK "Powrót do poprzedniego narzędzia po wybraniu koloru"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Jak w systemie Windows"
+    IDS_LANGUAGE_RESTART "Wybrany język zostanie zastosowany przy następnym uruchomieniu programu Paint."
+END
+
+LANGUAGE LANG_ROMANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Setări"
+    IDS_PALETTE_MENU "&Paletă"
+    IDS_TOOLS_MENU "&Instrumente"
+    IDS_RETURN_AFTER_PICK "Revenire la instrumentul anterior după alegerea culorii"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Ca în Windows"
+    IDS_LANGUAGE_RESTART "Limba selectată va fi aplicată la următoarea pornire a programului Paint."
+END
+
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Nastavenia"
+    IDS_PALETTE_MENU "&Paleta"
+    IDS_TOOLS_MENU "&Nástroje"
+    IDS_RETURN_AFTER_PICK "Po výbere farby sa vrátiť k predchádzajúcemu nástroju"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Podľa Windows"
+    IDS_LANGUAGE_RESTART "Vybraný jazyk sa použije pri ďalšom spustení programu Paint."
+END
+
+LANGUAGE LANG_ALBANIAN, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Cilësimet"
+    IDS_PALETTE_MENU "&Paleta"
+    IDS_TOOLS_MENU "&Mjetet"
+    IDS_RETURN_AFTER_PICK "Kthehu te mjeti i mëparshëm pas zgjedhjes së ngjyrës"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Si në Windows"
+    IDS_LANGUAGE_RESTART "Gjuha e zgjedhur do të përdoret herën tjetër që nisni Paint."
+END
+
+LANGUAGE LANG_SWEDISH, SUBLANG_NEUTRAL
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Inställningar"
+    IDS_PALETTE_MENU "&Palett"
+    IDS_TOOLS_MENU "&Verktyg"
+    IDS_RETURN_AFTER_PICK "Återgå till föregående verktyg efter färgval"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Som i Windows"
+    IDS_LANGUAGE_RESTART "Det valda språket används nästa gång du startar Paint."
+END
+
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Ayarlar"
+    IDS_PALETTE_MENU "&Palet"
+    IDS_TOOLS_MENU "&Araçlar"
+    IDS_RETURN_AFTER_PICK "Renk seçtikten sonra önceki araca dön"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Windows ile aynı"
+    IDS_LANGUAGE_RESTART "Seçilen dil, Paint bir sonraki başlatıldığında uygulanacaktır."
+END
+
+LANGUAGE LANG_VIETNAMESE, SUBLANG_VIETNAMESE_VIETNAM
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Cài đặt"
+    IDS_PALETTE_MENU "&Bảng màu"
+    IDS_TOOLS_MENU "&Công cụ"
+    IDS_RETURN_AFTER_PICK "Trở về công cụ trước sau khi chọn màu"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Giống Windows"
+    IDS_LANGUAGE_RESTART "Ngôn ngữ đã chọn sẽ được áp dụng trong lần khởi động Paint tiếp theo."
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&设置"
+    IDS_PALETTE_MENU "&调色板"
+    IDS_TOOLS_MENU "&工具"
+    IDS_RETURN_AFTER_PICK "选取颜色后返回上一个工具"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "与 Windows 相同"
+    IDS_LANGUAGE_RESTART "所选语言将在下次启动 Paint 时生效。"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&設定"
+    IDS_PALETTE_MENU "&調色盤"
+    IDS_TOOLS_MENU "&工具"
+    IDS_RETURN_AFTER_PICK "選取顏色後返回上一個工具"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "與 Windows 相同"
+    IDS_LANGUAGE_RESTART "所選語言將於下次啟動 Paint 時生效。"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&設定"
+    IDS_PALETTE_MENU "&調色盤"
+    IDS_TOOLS_MENU "&工具"
+    IDS_RETURN_AFTER_PICK "選取色彩後返回上一個工具"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "與 Windows 相同"
+    IDS_LANGUAGE_RESTART "所選語言將於下次啟動 Paint 時生效。"
+END
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+STRINGTABLE
+BEGIN
+    IDS_SETTINGS_MENU "&Settings"
+    IDS_PALETTE_MENU "&Palette"
+    IDS_TOOLS_MENU "&Tools"
+    IDS_RETURN_AFTER_PICK "Return after picking a colour"
+    IDS_LANGUAGE_MENU "Language"
+    IDS_LANGUAGE_SYSTEM "Same as Windows"
+    IDS_LANGUAGE_RESTART "The selected language will be used the next time you start Paint."
+END

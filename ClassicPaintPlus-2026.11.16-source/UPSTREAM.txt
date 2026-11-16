@@ -1,0 +1,81 @@
+ReactOS commit: 447673979ce8a19188628cac6053a5d20c368237
+Standalone Windows build; local changes in precomp.h and additions in standalone/CMakeLists.txt and reactos/version.rc.
+Helper headers debug.h and ui/CWaitCursor.h are from the same ReactOS commit.
+Current standalone build instructions: BUILDING.md and build.cmd.
+Current output: build/<x64|x86>/bin/ClassicPaintPlus.exe.
+Release x64, static MSVC runtime. Includes all languages enabled in rsrc.rc.
+2026-11-13: palette.cpp/.h and palettemodel.cpp/.h modified for current-color dialogs and a swap-colors button.
+2026-11-13: colorpicker.cpp/.h and main.cpp add read-only canvas sampling to the standard color dialog.
+2026-11-13: rsrc.rc uses img/iconbar-classic.bmp extracted from user-provided 6.PNG by make_classic_icons.py.
+Picker integration tests: build with -DPAINT_BUILD_PICKER_TESTS=ON; run picker_test.exe.
+2026-11-13: settings.cpp/.h/.rc provide settings menu, persistent picker return preference and UI language selection on restart; startup tool is rectangular selection.
+2026-11-13: English language names and priority ordering; 30 fully covered settings-menu locales; Ukrainian resources excluded; inherited English menu placeholders translated.
+2026-11-13: regional language pairs and custom ordering; removed system-language menu item; first-run OS language resolution with Russian/Turkish fallbacks and persistent selection. Integration checks passed for ordering, detection and all 30 locale checkmarks.
+2026-11-13: canvasdialogs.cpp/.h/.rc add Image > Canvas submenu, four-edge cropping with preview and inverted top spinner, canvas resize with relative dimensions, 9 anchors and extension color. New strings localized for all 30 languages. Pixel-placement and native dialog/history checks in standalone/canvas_test.inc.
+2026-11-13: corrected actual up-down control direction; signed edge offsets support canvas extension, shared fill-color selector and union-bounds preview. Tests click real spinner buttons, type minus signs and verify expanded/mixed output pixels plus history.
+2026-11-13: selectionresize.cpp/.h/.rc adds a right-side selection interpolation panel (nearest, HQ bilinear, HQ bicubic), persistent preference and alpha-aware cached resizing from the original floating selection. selectionmodel.cpp uses it for handles/percentage resizing and exports the floating contents. All 30 locales translated. Native pixel, transparency, copy, undo and UI checks pass.
+GDI+ interpolation reference: https://learn.microsoft.com/en-us/windows/win32/api/gdiplusenums/ne-gdiplusenums-interpolationmode
+2026-11-14: moved interpolation choices into the left tool-settings panel below transparency controls. Three owner-drawn buttons show a diagonal sampled with each algorithm, with translated tooltips and accessible button names. Removed right sidebar layout and restored original minimum window width. Native UI and image checks pass.
+2026-11-14: interpolation icons now use distinct stepped, straight/square-node and S-curve/round-node silhouettes. Canvas handle dragging uses a dotted focus rectangle; fixed selection-tool routing so resizing previews are displayed. Capture loss cancels resizing. Native growth/shrink, Escape, commit, capture-loss and undo tests pass.
+2026-11-14: figures.cpp/.h/.rc implement 18-shape horizontal gallery from the user's Paint/Kompas references, separate selected-shape indicator and corner/center origin buttons. Original toolbar preserved. Shared bounded-shape drawing supports legacy rectangle/ellipse/rounded rectangle, existing brushes and stroke widths, Shift and partial undo bounds. New preferences and all 30 translations added. Native drawing and popup interaction tests pass.
+2026-11-14: gallery now opens on a 400 ms hold (or Down/F4); short click activates the chosen shape, whose icon replaces the separate indicator. A vertical rounding slider shares the line-width box for both rounded-rectangle tools, with persistent 0-100% rounding. Holding right while drawing with left rotates the current shape about its center, including polygons; releasing right resumes sizing without a jump and releasing left commits one history action. Capture loss/Escape cancel. Geometry is rotated before rasterization; preview, commit and partial Undo use consistent bounds. All 30 locales translated. Native gesture, pixel, keyboard, persistence and regression tests pass; see standalone/figure_interaction_test.inc.
+2026-11-14: Shift snaps shape rotation to 15 degrees with live angle status; classic toolbar top spacing and palette cell gaps; Attributes moved into Image > Canvas. panelsettings.cpp/.h/.rc adds persistent 100/200/300% panels, vector-rendered large toolbar icons (panelicons.cpp), scalable sliders and scrollable overflow, plus an editable canvas-marker size submenu (3-15px) and color chooser. Canvas-only grip geometry, hit testing and color are configurable. Zoom tool has synchronized editable percentages, including decimals, within the existing 12.5-800% range. All 30 locales covered by add_panel_resources.py. Native menu, input, scaling, scrolling, drag, marker-pixel, persistence and regression tests in standalone/panel_settings_test.inc pass; settings are restored after test runs.
+
+Local update 2026-11-14: portable config.ini replaces registry writes for application
+preferences, with a one-time read-only import. Palette mode is restored at startup.
+Panel scales are 100/150/200/250%; the toolbox top margin is configurable (0-500,
+default 40 logical pixels). Native menu popups contain real editable numeric cells
+for the top margin and canvas grip size, preserving their parent menu chain.
+New generated transparent PNG resampling glyphs are embedded as RCDATA resources;
+generation prompts are recorded in resample-icon-prompts.txt. No external assets
+are required at runtime. All 30 UI languages include the new menu label.
+Integration tests isolate preferences in a temporary Unicode INI; --isolated runs
+the native GUI on a private desktop without switching the user's active desktop.
+
+Local final polish 2026-11-14: enlarged eraser/fill/picker/pencil/brush/airbrush and
+background-transparency pictures reuse exact classic pixels with crisp integer
+sampling. Gallery glyphs use separate antialiased, symmetric GDI+ geometry.
+Selection transparency (0-100%) has a left-panel slider and numeric editor. It is
+per-selection, preserves source pixels during preview, combines with masks/color
+keys/interpolation, and participates in landing, cancel, Undo and Redo. Panel
+resizing no longer discards floating selections. All 30 locales have the new label.
+Canvas crop/size dialogs now use the application's standard font and numeric cell
+dimensions. Native integration coverage: standalone/final_polish_test.inc.
+
+Local update 2026-11-14: full scaled-trackbar repaint fixes thumb trails, including
+keyboard/range updates and WM_PRINTCLIENT. Six classic tool icons and the classic
+transparency illustrations are redrawn as detailed antialiased GDI+ geometry for
+150/200/250%; the original 100% bitmaps and accepted shape gallery remain intact.
+JPEG Save As has an Options button and metadata checkbox. jpegoptions.cpp and
+jpegcodec.cpp implement quality, progressive/optimized Huffman, independent 2:1
+sampling, existing/always/never thumbnail policies, DCF padded 160x120 thumbnails,
+Reset and explicit config.ini defaults. All 30 languages have new translations.
+The unmodified official libjpeg-turbo 3.2.1 source is vendored with its licenses
+and statically linked through ExternalProject_Add; no additional runtime DLL.
+Source URL/SHA256: third_party/JPEG-SOURCE.txt. JPEG-NOTICES.txt is copied beside
+the executable. Existing JPEG EXIF/XMP/IPTC/ICC/comments are preserved optionally;
+dimensions/thumbnail IFDs are updated with bounded endian-aware offsets. Non-RGB
+ICC profiles are omitted for the RGB canvas. No ACDSee database integration.
+Output is replaced only after a complete successful temporary-file write.
+Native regression/UI/codec tests: standalone/jpeg_test.inc. Independent Pillow
+inspection: ../verify_jpeg_outputs.py. Reference behavior:
+https://help.acdsystems.com/en/ms-ultimate/Content/1Topics/Options_configuration/Setting_options/IDDH_JPEG_OPTIONS.htm
+
+
+Local image-format update 2026-11-14:
+imageformats.h, imagecodec.cpp, icocodec.cpp, imageoptions.cpp and their resources
+add PNG Adam7/palette optimization, BMP 1/4/8/24-bit export, WebP lossless/lossy RGBA,
+and multi-image ICO editing. All 30 locales translated. PNG quantization is local
+weighted variance partitioning plus refinement, with common-color retention,
+alpha endpoint separation and quality/size fallback; it uses no TinyPNG API/code.
+Indexed files decode to unrestricted RGBA; exporting never quantizes the document.
+raster.cpp bridges GDI with bottom-up BGRT DIBs (inverse alpha: GDI zero is opaque).
+Codec buffers are straight ARGB; selection resampling uses premultiplied ARGB.
+History/crop/rotate/clipboard/display paths preserve alpha; checkerboards are drawn
+only on preview copies. CF_DIBV5 exports standard alpha; legacy CF_DIB uses white.
+ICO keeps unedited frames byte-for-byte, asks which frame to edit, and limits output
+to 256 pixels. Animated WebP exposes its first frame under a new filename.
+Unmodified LodePNG (pinned commit) and libwebp 1.6.0 are statically linked. See
+third_party/IMAGE-SOURCES.txt and IMAGE-NOTICES.txt, copied beside the executable.
+Native tests: standalone/imageformats_test.inc; independent Pillow fixtures and
+verification: ../prepare_format_fixtures.py and ../verify_format_outputs.py.

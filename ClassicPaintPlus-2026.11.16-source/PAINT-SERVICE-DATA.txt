@@ -1,0 +1,45 @@
+Classic Paint Plus document service data, version 1
+
+Purpose: remember the two transparency swatches without changing raster pixels,
+alpha, palette or editing colour depth. This is optional application metadata.
+
+The exact ASCII payload (no trailing NUL, except in TIFF's ASCII tag) is:
+ClassicPaintPlus/1;key=1;rgb=0A5AD2;matte=2A5BB4
+
+key=0 means the upper swatch is a checkerboard (no manually chosen colour).
+key=1 means rgb is the user's transparent colour. rgb and matte contain six
+uppercase hexadecimal RRGGBB digits. Unknown versions, invalid flags, non-hex
+colours, additional text and truncated records are ignored. The stored key
+never recolours or rekeys pixels on load; actual transparency is always alpha.
+
+Containers:
+- PNG: cpPs private ancillary, safe-to-copy chunk before IEND, with normal PNG
+  length and CRC. An invalid CRC is ignored. Optimisation/interlacing do not
+  change the service data. Reference: https://www.w3.org/TR/png-3/
+- WebP: CPPA application-specific RIFF chunk. A simple WebP is upgraded to a
+  VP8X container with the correct size and alpha flag. Chunk padding and RIFF
+  length follow https://developers.google.com/speed/webp/docs/riff_container
+- TIFF: standard ImageDescription tag 270, ASCII, written/read through WIC.
+  Only a complete matching payload is interpreted as application data.
+  Reference: https://www.itu.int/itudoc/itu-t/com16/tiff-fx/docs/tiff6.pdf
+- TGA: the Image ID field, with its declared byte length. Extension/footer
+  offsets are adjusted after inserting it. The normal RGBA stream is unchanged.
+- ICO: the selected frame is encoded as a true-colour RGBA PNG with cpPs.
+  Other frames retain their pixels. Disabling service data removes cpPs from
+  every retained PNG frame as well. RGBA avoids indexed-PNG alpha compatibility
+  problems in some icon readers. Metadata is read for the chosen frame only.
+
+JPEG, BMP, GIF and DDS have no service-data option in this editor. Their existing
+image encoding behaviour is unchanged. The ordinary JPEG metadata option is
+shown only when JPEG is selected. Cancelling Save As does not commit either
+option. The application config.ini is separate from these document properties.
+
+Eligibility: alpha document mode must be enabled, and either valid service data
+was loaded or the user selected a transparent colour / changed the backdrop.
+Ordinary imported transparent files start with checkerboard/white swatches and
+an inactive service-data checkbox. Unchecking the option never discards alpha.
+
+Tests: standalone/alpha_followup_test.inc, verify_alpha_followup_files.py.
+Native tests cover all containers, UI eligibility/visibility, cancellation,
+malformed data and exact RGBA. Independent Pillow decoding checks that the
+optional data has no effect on the image, including fully transparent RGB.

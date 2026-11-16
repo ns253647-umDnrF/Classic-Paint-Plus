@@ -1,0 +1,24 @@
+Classic Paint Plus 2026.11.16
+============================
+
+This is a modified version of ReactOS Paint / RPaint, based on ReactOS commit
+447673979ce8a19188628cac6053a5d20c368237. Plus version development: Nicolay S.
+Modifications were made in November 2026; see CHANGELOG.md and UPSTREAM.txt.
+Original copyright and license notices remain in the source files.
+
+The Paint code is distributed under the GNU Library General Public License,
+version 2 or (at your option) any later version (LGPL-2.0-or-later).
+The complete version 2 license text is in COPYING.
+
+Corresponding application and bundled codec source is provided in the same
+release as ClassicPaintPlus-2026.11.16-source.zip, including build scripts.
+Distribute that source archive alongside the Windows archives, or provide
+equivalent access to it from the same release location.
+
+Bundled libraries retain their individual licenses. See JPEG-NOTICES.txt and
+IMAGE-NOTICES.txt for libjpeg-turbo, LodePNG, libwebp, bcdec and libsquish notices.
+Microsoft build tools, headers, libraries and the Windows SDK are not included
+in the source archive; install them to build the application.
+
+This application is an independent modification, not an official Microsoft or
+ReactOS release. Names of third-party products identify compatibility and origin.
