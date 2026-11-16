@@ -1,0 +1,15 @@
+libwebp 1.6.0
+https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz
+SHA256 e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564
+
+https://raw.githubusercontent.com/lvandeve/lodepng/7b2893e35891c0c85bee5595caafaf3c2044b409/lodepng.cpp
+SHA256 32cdd7a395b5476a3fe4615305a99066dc4d37aaea6988643cca8b4eccc352cc
+
+https://raw.githubusercontent.com/lvandeve/lodepng/7b2893e35891c0c85bee5595caafaf3c2044b409/lodepng.h
+SHA256 a49b98b45ea603a05e2a77bd6b0320e7535a9c6e18aef8ce904692a3e02b87ab
+
+https://raw.githubusercontent.com/lvandeve/lodepng/7b2893e35891c0c85bee5595caafaf3c2044b409/LICENSE
+SHA256 bdafa318b8e637d600ca1b60545e894881977a16a16b74809c95e805701621e3
+
+https://raw.githubusercontent.com/lvandeve/lodepng/7b2893e35891c0c85bee5595caafaf3c2044b409/README.md
+SHA256 6d6def2448127b8401dd8b0033d5512c4ce1f6cde1d31db64a9b1cf95e3236a8
